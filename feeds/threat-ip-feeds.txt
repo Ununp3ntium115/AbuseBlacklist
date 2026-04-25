@@ -13,3 +13,4 @@ https://lists.blocklist.de/lists/mail.txt
 https://lists.blocklist.de/lists/apache.txt
 https://lists.blocklist.de/lists/bots.txt
 https://lists.blocklist.de/lists/bruteforcelogin.txt
+feeds/manual-threat-ips.txt

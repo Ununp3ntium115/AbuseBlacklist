@@ -171,6 +171,13 @@ DEFAULT_SOURCE = {
 
 
 def fetch(url: str, timeout: int) -> str:
+    parsed = urlparse(url)
+    if parsed.scheme in {"", "file"}:
+        if parsed.scheme == "file":
+            local_path = Path(parsed.path)
+        else:
+            local_path = ROOT / url
+        return local_path.read_text(encoding="utf-8", errors="replace")
     req = urllib.request.Request(url, headers={"User-Agent": "custom-threatfeed-daily-dump/1.0"})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
@@ -296,7 +303,7 @@ def read_urls(path: Path) -> list[str]:
     urls = []
     for line in path.read_text().splitlines():
         line = strip_comment(line)
-        if line.startswith("http"):
+        if line:
             urls.append(line)
     return urls
 

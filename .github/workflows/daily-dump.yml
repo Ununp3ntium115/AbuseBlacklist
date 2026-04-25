@@ -42,9 +42,21 @@ jobs:
         run: cat output/source-manifest.json
 
       - name: Commit updated dump
+        id: commit_changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add output/
-          git diff --cached --quiet || git commit -m "Daily threatfeed dump $(date -u +'%Y-%m-%d')"
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Daily threatfeed dump $(date -u +'%Y-%m-%d')"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Push updated dump
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: |
+          git pull --rebase origin main
           git push
+

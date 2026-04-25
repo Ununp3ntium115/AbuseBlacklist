@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-25T08:44:08.113453+00:00",
+  "generated_at_utc": "2026-04-25T21:56:54.011247+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 133234,
+      "ipv4": 132446,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 50855,
-      "ipv6": 83,
+      "ipv4": 49690,
+      "ipv6": 65,
       "domains": 0,
       "urls": 0
     },
@@ -796,7 +796,7 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 29895,
+      "ipv4": 30540,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -813,7 +813,7 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 13420,
+      "ipv4": 13289,
       "ipv6": 8,
       "domains": 0,
       "urls": 0
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 11301,
-      "ipv6": 64,
+      "ipv4": 10557,
+      "ipv6": 49,
       "domains": 0,
       "urls": 0
     },
@@ -847,8 +847,8 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 3950,
-      "ipv6": 11,
+      "ipv4": 2922,
+      "ipv6": 8,
       "domains": 0,
       "urls": 0
     },
@@ -864,8 +864,24 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 3199,
-      "ipv6": 64,
+      "ipv4": 2446,
+      "ipv6": 49,
+      "domains": 0,
+      "urls": 0
+    },
+    {
+      "name": "Uncataloged feed",
+      "kind": "abuse",
+      "reputation_score": 0.5,
+      "confidence": 50,
+      "ttl_hours": 24,
+      "cadence": "daily",
+      "justification": "Uncataloged open-source feed; use only with corroboration or manual review.",
+      "url": "feeds/manual-threat-ips.txt",
+      "category": "threat_ip",
+      "ok": true,
+      "ipv4": 2,
+      "ipv6": 0,
       "domains": 0,
       "urls": 0
     },
@@ -883,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 400,
+      "domains": 403,
       "urls": 0
     },
     {
@@ -900,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 617,
-      "urls": 12295
+      "domains": 619,
+      "urls": 12477
     },
     {
       "name": "abuse.ch URLhaus",
@@ -917,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 636,
-      "urls": 24588
+      "domains": 638,
+      "urls": 24950
     },
     {
       "name": "EasyPrivacy",
@@ -934,7 +950,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 1,
-      "domains": 54988,
+      "domains": 54989,
       "urls": 6
     },
     {
@@ -968,7 +984,7 @@
       "ok": true,
       "ipv4": 71,
       "ipv6": 0,
-      "domains": 163085,
+      "domains": 163219,
       "urls": 0
     },
     {
@@ -1042,26 +1058,43 @@
       "domains": 0,
       "urls": 0,
       "items": 50
+    },
+    {
+      "name": "Uncataloged feed",
+      "kind": "context",
+      "reputation_score": 0.75,
+      "confidence": 0,
+      "ttl_hours": 24,
+      "cadence": "daily",
+      "justification": "Uncataloged open-source feed; use only with corroboration or manual review.",
+      "url": "https://justhaifei1.blogspot.com/2026/04/expmon-detected-sophisticated-zero-day-adobe-reader.html",
+      "category": "advisory_context",
+      "ok": true,
+      "ipv4": 0,
+      "ipv6": 0,
+      "domains": 0,
+      "urls": 0,
+      "items": 0
     }
   ],
   "high_confidence_threshold": 75,
   "stats": {
     "country_ipv4_raw": 18282,
     "country_ipv6_raw": 5717,
-    "threat_ipv4_raw": 135518,
-    "threat_ipv6_raw": 180,
-    "threat_domains_raw": 648,
-    "threat_urls_raw": 24589,
-    "privacy_domains_raw": 267471,
-    "dns_blocklist_raw": 267736,
-    "scored_indicators": 184863,
-    "privacy_indicators_unscored": 267190,
-    "high_confidence_indicators": 160167,
+    "threat_ipv4_raw": 134660,
+    "threat_ipv6_raw": 161,
+    "threat_domains_raw": 650,
+    "threat_urls_raw": 24953,
+    "privacy_domains_raw": 267605,
+    "dns_blocklist_raw": 267870,
+    "scored_indicators": 184352,
+    "privacy_indicators_unscored": 267322,
+    "high_confidence_indicators": 159745,
     "advisory_context_items": 120,
-    "combined_ipv4_collapsed": 101564,
-    "combined_ipv6_collapsed": 5878,
-    "sources_total": 62,
-    "sources_ok": 62,
+    "combined_ipv4_collapsed": 100771,
+    "combined_ipv6_collapsed": 5859,
+    "sources_total": 64,
+    "sources_ok": 64,
     "sources_failed": 0
   }
 }

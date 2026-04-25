@@ -1,0 +1,165 @@
+name: Publish ruleset release
+
+on:
+  workflow_run:
+    workflows:
+      - Daily threatfeed dump
+    types:
+      - completed
+  schedule:
+    # Fallback release publication shortly after the daily dump schedule.
+    - cron: "45 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ruleset-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure output artifacts exist
+        run: |
+          required=(
+            output/combined-ipv4.txt
+            output/combined-ipv6.txt
+            output/threatfeed-ips.txt
+            output/threat-domains.txt
+            output/threat-urls.txt
+            output/dns-blocklist.txt
+            output/high-confidence-ipv4.txt
+            output/high-confidence-ipv6.txt
+            output/high-confidence-domains.txt
+            output/high-confidence-urls.txt
+            output/ipset.restore
+            output/nftables-blocklist.nft
+            output/source-manifest.json
+            output/advisory-context.json
+          )
+          for f in "${required[@]}"; do
+            [[ -f "$f" ]] || { echo "Missing artifact: $f"; exit 1; }
+          done
+
+      - name: Build release metadata
+        id: meta
+        run: |
+          today="$(date -u +'%Y-%m-%d')"
+          tag="rulesets-${today}"
+          release_name="AbuseBlacklist Rulesets ${today}"
+
+          ipv4_count="$(wc -l < output/combined-ipv4.txt | tr -d ' ')"
+          ipv6_count="$(wc -l < output/combined-ipv6.txt | tr -d ' ')"
+          threat_ip_count="$(wc -l < output/threatfeed-ips.txt | tr -d ' ')"
+          threat_domain_count="$(wc -l < output/threat-domains.txt | tr -d ' ')"
+          threat_url_count="$(wc -l < output/threat-urls.txt | tr -d ' ')"
+          dns_count="$(wc -l < output/dns-blocklist.txt | tr -d ' ')"
+          hc_ipv4_count="$(wc -l < output/high-confidence-ipv4.txt | tr -d ' ')"
+          hc_ipv6_count="$(wc -l < output/high-confidence-ipv6.txt | tr -d ' ')"
+          hc_domain_count="$(wc -l < output/high-confidence-domains.txt | tr -d ' ')"
+          hc_url_count="$(wc -l < output/high-confidence-urls.txt | tr -d ' ')"
+
+          {
+            echo "tag=${tag}"
+            echo "release_name=${release_name}"
+          } >> "$GITHUB_OUTPUT"
+
+          cat > RELEASE_NOTES.md <<EOF
+          Daily AbuseBlacklist release for ${today}.
+
+          Included rulesets:
+          - IPv4 combined rules: ${ipv4_count}
+          - IPv6 combined rules: ${ipv6_count}
+          - Threat IP rules: ${threat_ip_count}
+          - Threat DNS rules: ${threat_domain_count}
+          - Threat URL rules: ${threat_url_count}
+          - DNS blocklist rules: ${dns_count}
+          - High-confidence IPv4 rules: ${hc_ipv4_count}
+          - High-confidence IPv6 rules: ${hc_ipv6_count}
+          - High-confidence domain rules: ${hc_domain_count}
+          - High-confidence URL rules: ${hc_url_count}
+
+          Release assets:
+          - output/combined-ipv4.txt
+          - output/combined-ipv6.txt
+          - output/threatfeed-ips.txt
+          - output/threat-domains.txt
+          - output/threat-urls.txt
+          - output/dns-blocklist.txt
+          - output/high-confidence-ipv4.txt
+          - output/high-confidence-ipv6.txt
+          - output/high-confidence-domains.txt
+          - output/high-confidence-urls.txt
+          - output/ipset.restore
+          - output/nftables-blocklist.nft
+          - output/source-manifest.json
+          - output/advisory-context.json
+          EOF
+
+      - name: Move snapshot tags to this build
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git tag -f "${{ steps.meta.outputs.tag }}" "$GITHUB_SHA"
+          git tag -f rulesets-latest "$GITHUB_SHA"
+          git push origin "refs/tags/${{ steps.meta.outputs.tag }}" --force
+          git push origin "refs/tags/rulesets-latest" --force
+
+      - name: Create or update daily release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.release_name }}
+          body_path: RELEASE_NOTES.md
+          make_latest: true
+          overwrite_files: true
+          files: |
+            output/combined-ipv4.txt
+            output/combined-ipv6.txt
+            output/threatfeed-ips.txt
+            output/threat-domains.txt
+            output/threat-urls.txt
+            output/dns-blocklist.txt
+            output/high-confidence-ipv4.txt
+            output/high-confidence-ipv6.txt
+            output/high-confidence-domains.txt
+            output/high-confidence-urls.txt
+            output/ipset.restore
+            output/nftables-blocklist.nft
+            output/source-manifest.json
+            output/advisory-context.json
+
+      - name: Update rolling latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rulesets-latest
+          name: AbuseBlacklist Rulesets (latest)
+          body_path: RELEASE_NOTES.md
+          make_latest: false
+          overwrite_files: true
+          files: |
+            output/combined-ipv4.txt
+            output/combined-ipv6.txt
+            output/threatfeed-ips.txt
+            output/threat-domains.txt
+            output/threat-urls.txt
+            output/dns-blocklist.txt
+            output/high-confidence-ipv4.txt
+            output/high-confidence-ipv6.txt
+            output/high-confidence-domains.txt
+            output/high-confidence-urls.txt
+            output/ipset.restore
+            output/nftables-blocklist.nft
+            output/source-manifest.json
+            output/advisory-context.json

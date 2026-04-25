@@ -1,0 +1,4 @@
+# Manually curated emergency threat IPs.
+# Keep entries to validated malicious infrastructure only.
+169.40.2.68
+188.214.34.20

@@ -29,6 +29,24 @@ Skynet high-confidence abuse-only IPv4 feed:
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/high-confidence-ipv4.txt
 ```
 
+Release-page (latest release asset) URLs:
+
+```text
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/latest/download/combined-ipv4.txt
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/latest/download/high-confidence-ipv4.txt
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/latest/download/combined-ipv6.txt
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/latest/download/dns-blocklist.txt
+```
+
+Release-page (rolling connector tag) URLs:
+
+```text
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/combined-ipv4.txt
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/high-confidence-ipv4.txt
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/combined-ipv6.txt
+https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/dns-blocklist.txt
+```
+
 Router command example:
 
 ```bash
@@ -177,6 +195,34 @@ The high-frequency workflows only make lightweight `HEAD` probes. The full
 payload ingestion runs once daily, or manually, so upstream sources are not
 hammered.
 
+## Release Page Automation
+
+Releases are now published automatically from generated outputs by
+`.github/workflows/publish-release.yml`.
+
+- Connector trigger: runs after successful `Daily threatfeed dump` workflow
+  completion (`workflow_run`).
+- Fallback schedule: `45 3 * * *` UTC in case the connector trigger is missed.
+- Manual trigger: `workflow_dispatch` is available.
+
+Each run updates:
+
+1. A dated release tag: `rulesets-YYYY-MM-DD`
+2. A rolling tag: `rulesets-latest`
+
+Release notes include rule counts for:
+
+- IPv4 combined rules
+- IPv6 combined rules
+- Threat IP rules
+- Threat DNS rules
+- Threat URL rules
+- DNS blocklist rules
+- High-confidence IPv4/IPv6/domain/URL rules
+
+Release assets include `combined-ipv4`, `combined-ipv6`, threat IP/domain/URL,
+DNS blocklist, high-confidence outputs, and firewall export files.
+
 ## Scoring And Justification
 
 Each indicator is scored from source reputation, source confidence, and
@@ -220,6 +266,24 @@ These sources generate `output/advisory-context.json`. They are context only:
 news, advisories, and KEV entries do not create blocks by themselves. They are
 there to explain active campaigns and help review whether feed hits line up with
 current public reporting.
+
+## Emergency Manual IOCs
+
+For urgent campaign response, add validated IPs to:
+
+- `feeds/manual-threat-ips.txt`
+
+This file is ingested by `feeds/threat-ip-feeds.txt` and is treated as an abuse
+source during each build.
+
+Recommended workflow:
+
+1. Add only concrete attacker infrastructure (single IPs/CIDRs), not broad
+  hosting ranges.
+2. Add the related write-up or advisory URL to
+  `feeds/advisory-context-feeds.txt` for analyst context.
+3. Rebuild with `python3 scripts/build_blocklists.py`.
+4. Verify presence in `output/threatfeed-ips.txt` and `output/combined-ipv4.txt`.
 
 ## YARA IOC Extraction Policy
 
