@@ -1,6 +1,14 @@
 name: Daily threatfeed dump
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "config.json"
+      - "feeds/**"
+      - "scripts/**"
+      - ".github/workflows/daily-dump.yml"
   schedule:
     # Daily at 03:17 UTC.
     - cron: "17 3 * * *"
