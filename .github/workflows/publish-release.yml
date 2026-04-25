@@ -108,15 +108,6 @@ jobs:
           - dated release tag plus rolling rulesets-latest tag
           EOF
 
-      - name: Move snapshot tags to this build
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git tag -f "${{ steps.meta.outputs.tag }}" "$GITHUB_SHA"
-          git tag -f rulesets-latest "$GITHUB_SHA"
-          git push origin "refs/tags/${{ steps.meta.outputs.tag }}" --force
-          git push origin "refs/tags/rulesets-latest" --force
-
       - name: Create or update daily release
         uses: softprops/action-gh-release@v2
         with:
