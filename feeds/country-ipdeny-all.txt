@@ -1,0 +1,44 @@
+# Dump-all country CIDR feeds from IPdeny
+# IPv4:
+https://www.ipdeny.com/ipblocks/data/aggregated/ru-aggregated.zone  # Russia
+https://www.ipdeny.com/ipblocks/data/aggregated/cn-aggregated.zone  # China
+https://www.ipdeny.com/ipblocks/data/aggregated/kp-aggregated.zone  # North Korea
+https://www.ipdeny.com/ipblocks/data/aggregated/ir-aggregated.zone  # Iran
+https://www.ipdeny.com/ipblocks/data/aggregated/il-aggregated.zone  # Israel
+https://www.ipdeny.com/ipblocks/data/aggregated/cu-aggregated.zone  # Cuba
+https://www.ipdeny.com/ipblocks/data/aggregated/sy-aggregated.zone  # Syria
+https://www.ipdeny.com/ipblocks/data/aggregated/by-aggregated.zone  # Belarus
+https://www.ipdeny.com/ipblocks/data/aggregated/mm-aggregated.zone  # Myanmar/Burma
+https://www.ipdeny.com/ipblocks/data/aggregated/af-aggregated.zone  # Afghanistan
+https://www.ipdeny.com/ipblocks/data/aggregated/iq-aggregated.zone  # Iraq
+https://www.ipdeny.com/ipblocks/data/aggregated/lb-aggregated.zone  # Lebanon
+https://www.ipdeny.com/ipblocks/data/aggregated/ly-aggregated.zone  # Libya
+https://www.ipdeny.com/ipblocks/data/aggregated/ve-aggregated.zone  # Venezuela
+https://www.ipdeny.com/ipblocks/data/aggregated/sd-aggregated.zone  # Sudan
+https://www.ipdeny.com/ipblocks/data/aggregated/ss-aggregated.zone  # South Sudan
+https://www.ipdeny.com/ipblocks/data/aggregated/so-aggregated.zone  # Somalia
+https://www.ipdeny.com/ipblocks/data/aggregated/ye-aggregated.zone  # Yemen
+https://www.ipdeny.com/ipblocks/data/aggregated/zw-aggregated.zone  # Zimbabwe
+https://www.ipdeny.com/ipblocks/data/aggregated/cd-aggregated.zone  # Democratic Republic of the Congo
+
+# IPv6:
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/ru-aggregated.zone  # Russia
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/cn-aggregated.zone  # China
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/kp-aggregated.zone  # North Korea
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/ir-aggregated.zone  # Iran
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/il-aggregated.zone  # Israel
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/cu-aggregated.zone  # Cuba
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/sy-aggregated.zone  # Syria
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/by-aggregated.zone  # Belarus
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/mm-aggregated.zone  # Myanmar/Burma
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/af-aggregated.zone  # Afghanistan
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/iq-aggregated.zone  # Iraq
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/lb-aggregated.zone  # Lebanon
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/ly-aggregated.zone  # Libya
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/ve-aggregated.zone  # Venezuela
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/sd-aggregated.zone  # Sudan
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/ss-aggregated.zone  # South Sudan
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/so-aggregated.zone  # Somalia
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/ye-aggregated.zone  # Yemen
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/zw-aggregated.zone  # Zimbabwe
+https://www.ipdeny.com/ipv6/ipaddresses/aggregated/cd-aggregated.zone  # Democratic Republic of the Congo
