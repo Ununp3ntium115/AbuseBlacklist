@@ -1,0 +1,39 @@
+{
+  "description": "Daily dump of geo-block and open threat-intel IP feeds",
+  "mode": "dump_everything",
+  "country_source": "IPdeny aggregated country CIDR zone files",
+  "ipv4_country_url_template": "https://www.ipdeny.com/ipblocks/data/aggregated/{cc}-aggregated.zone",
+  "ipv6_country_url_template": "https://www.ipdeny.com/ipv6/ipaddresses/aggregated/{cc}-aggregated.zone",
+  "countries": {
+    "ru": "Russia",
+    "cn": "China",
+    "kp": "North Korea",
+    "ir": "Iran",
+    "il": "Israel",
+    "cu": "Cuba",
+    "sy": "Syria",
+    "by": "Belarus",
+    "mm": "Myanmar/Burma",
+    "af": "Afghanistan",
+    "iq": "Iraq",
+    "lb": "Lebanon",
+    "ly": "Libya",
+    "ve": "Venezuela",
+    "sd": "Sudan",
+    "ss": "South Sudan",
+    "so": "Somalia",
+    "ye": "Yemen",
+    "zw": "Zimbabwe",
+    "cd": "Democratic Republic of the Congo"
+  },
+  "outputs": [
+    "output/country-blocklist-ipv4.txt",
+    "output/country-blocklist-ipv6.txt",
+    "output/threatfeed-ips.txt",
+    "output/combined-ipv4.txt",
+    "output/combined-ipv6.txt",
+    "output/source-manifest.json",
+    "output/nftables-blocklist.nft",
+    "output/ipset.restore"
+  ]
+}
