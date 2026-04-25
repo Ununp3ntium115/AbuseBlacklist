@@ -61,9 +61,9 @@ jobs:
       - name: Build release metadata
         id: meta
         run: |
-          today="$(date -u +'%Y-%m-%d')"
-          tag="rulesets-${today}"
-          release_name="AbuseBlacklist Rulesets ${today}"
+          timestamp="$(date -u +'%Y-%m-%dT%H%M%SZ')"
+          tag="rulesets-${timestamp}"
+          release_name="AbuseBlacklist Rulesets ${timestamp}"
 
           ipv4_count="$(wc -l < output/combined-ipv4.txt | tr -d ' ')"
           ipv6_count="$(wc -l < output/combined-ipv6.txt | tr -d ' ')"
@@ -85,7 +85,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
           cat > RELEASE_NOTES.md <<EOF
-          Daily AbuseBlacklist release for ${today}.
+          AbuseBlacklist immutable ruleset snapshot for ${timestamp}.
 
           Included rulesets:
           - IPv4 combined rules: ${ipv4_count}
@@ -105,46 +105,16 @@ jobs:
           Release assets:
           - all generated files under output/
           - score, reputation, advisory, ipset, and nftables artifacts
-          - dated release tag plus rolling rulesets-latest tag
+          - immutable timestamped release tag
           EOF
 
-      - name: Create or update daily release
+      - name: Create immutable snapshot release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.meta.outputs.tag }}
           name: ${{ steps.meta.outputs.release_name }}
           body_path: RELEASE_NOTES.md
           make_latest: true
-          overwrite_files: true
-          files: |
-            output/combined-ipv4.txt
-            output/combined-ipv6.txt
-            output/country-blocklist-ipv4.txt
-            output/country-blocklist-ipv6.txt
-            output/threatfeed-ips.txt
-            output/threat-domains.txt
-            output/threat-urls.txt
-            output/privacy-domains.txt
-            output/dns-blocklist.txt
-            output/high-confidence-ipv4.txt
-            output/high-confidence-ipv6.txt
-            output/high-confidence-domains.txt
-            output/high-confidence-urls.txt
-            output/ipset.restore
-            output/nftables-blocklist.nft
-            output/source-manifest.json
-            output/feed-reputation.json
-            output/scored-indicators.json
-            output/scored-indicators.jsonl
-            output/advisory-context.json
-
-      - name: Update rolling latest release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: rulesets-latest
-          name: AbuseBlacklist Rulesets (latest)
-          body_path: RELEASE_NOTES.md
-          make_latest: false
           overwrite_files: true
           files: |
             output/combined-ipv4.txt

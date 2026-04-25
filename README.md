@@ -38,15 +38,6 @@ https://github.com/Ununp3ntium115/AbuseBlacklist/releases/latest/download/combin
 https://github.com/Ununp3ntium115/AbuseBlacklist/releases/latest/download/dns-blocklist.txt
 ```
 
-Release-page (rolling connector tag) URLs:
-
-```text
-https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/combined-ipv4.txt
-https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/high-confidence-ipv4.txt
-https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/combined-ipv6.txt
-https://github.com/Ununp3ntium115/AbuseBlacklist/releases/download/rulesets-latest/dns-blocklist.txt
-```
-
 Router command example:
 
 ```bash
@@ -205,10 +196,14 @@ Releases are now published automatically from generated outputs by
 - Fallback schedule: `45 3 * * *` UTC in case the connector trigger is missed.
 - Manual trigger: `workflow_dispatch` is available.
 
-Each run updates:
+Each successful run creates a new immutable release tag:
 
-1. A dated release tag: `rulesets-YYYY-MM-DD`
-2. A rolling tag: `rulesets-latest`
+```text
+rulesets-YYYY-MM-DDTHHMMSSZ
+```
+
+GitHub's `/releases/latest/download/...` URLs point to the newest complete
+snapshot, while older Releases remain available as the historical database.
 
 Release notes include rule counts for:
 
