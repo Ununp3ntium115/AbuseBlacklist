@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-25T08:41:44.576892+00:00",
+  "generated_at_utc": "2026-04-25T08:44:08.113453+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -830,7 +830,7 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 11314,
+      "ipv4": 11301,
       "ipv6": 64,
       "domains": 0,
       "urls": 0
@@ -900,8 +900,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 616,
-      "urls": 12288
+      "domains": 617,
+      "urls": 12295
     },
     {
       "name": "abuse.ch URLhaus",
@@ -917,8 +917,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 635,
-      "urls": 24576
+      "domains": 636,
+      "urls": 24588
     },
     {
       "name": "EasyPrivacy",
@@ -1050,13 +1050,13 @@
     "country_ipv6_raw": 5717,
     "threat_ipv4_raw": 135518,
     "threat_ipv6_raw": 180,
-    "threat_domains_raw": 647,
-    "threat_urls_raw": 24576,
+    "threat_domains_raw": 648,
+    "threat_urls_raw": 24589,
     "privacy_domains_raw": 267471,
-    "dns_blocklist_raw": 267735,
-    "scored_indicators": 184849,
+    "dns_blocklist_raw": 267736,
+    "scored_indicators": 184863,
     "privacy_indicators_unscored": 267190,
-    "high_confidence_indicators": 160153,
+    "high_confidence_indicators": 160167,
     "advisory_context_items": 120,
     "combined_ipv4_collapsed": 101564,
     "combined_ipv6_collapsed": 5878,
