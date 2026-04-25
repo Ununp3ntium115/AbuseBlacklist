@@ -1,0 +1,3 @@
+# AbuseBlacklist combined IPv4 feed
+# This bootstrap file exists so raw.githubusercontent.com does not return 404.
+# The daily GitHub Action replaces this with generated CIDRs/IPs from configured feeds.
