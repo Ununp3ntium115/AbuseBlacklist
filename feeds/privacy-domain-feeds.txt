@@ -1,0 +1,7 @@
+# Privacy-oriented DNS feeds.
+# These are not abuse proof by themselves. They are emitted separately as
+# output/privacy-domains.txt and combined into output/dns-blocklist.txt.
+https://easylist.to/easylist/easyprivacy.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+

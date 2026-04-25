@@ -1,0 +1,8 @@
+# Optional direct raw YARA rule files.
+# The builder extracts only explicit quoted IPv4, IPv6, FQDN, and HTTP(S) URL
+# indicators. Generic strings, regexes, wildcard domains, mutexes, and hashes
+# are ignored so YARA does not become an unsafe network-block source.
+#
+# Add direct raw .yar/.yara URLs here when you have reviewed the source license
+# and want network IOCs distilled into the scored outputs.
+

@@ -1,6 +1,7 @@
 {
   "description": "Daily dump of geo-block and open threat-intel IP feeds",
   "mode": "dump_everything",
+  "high_confidence_threshold": 75,
   "country_source": "IPdeny aggregated country CIDR zone files",
   "ipv4_country_url_template": "https://www.ipdeny.com/ipblocks/data/aggregated/{cc}-aggregated.zone",
   "ipv6_country_url_template": "https://www.ipdeny.com/ipv6/ipaddresses/aggregated/{cc}-aggregated.zone",
@@ -26,15 +27,28 @@
     "zw": "Zimbabwe",
     "cd": "Democratic Republic of the Congo"
   },
+  "countries_without_ipv6": [
+    "kp"
+  ],
   "outputs": [
+    "output/source-manifest.json",
+    "output/scored-indicators.json",
+    "output/scored-indicators.jsonl",
+    "output/feed-reputation.json",
+    "output/advisory-context.json",
     "output/country-blocklist-ipv4.txt",
     "output/country-blocklist-ipv6.txt",
     "output/threatfeed-ips.txt",
     "output/threat-domains.txt",
     "output/threat-urls.txt",
+    "output/privacy-domains.txt",
+    "output/dns-blocklist.txt",
+    "output/high-confidence-ipv4.txt",
+    "output/high-confidence-ipv6.txt",
+    "output/high-confidence-domains.txt",
+    "output/high-confidence-urls.txt",
     "output/combined-ipv4.txt",
     "output/combined-ipv6.txt",
-    "output/source-manifest.json",
     "output/nftables-blocklist.nft",
     "output/ipset.restore"
   ]

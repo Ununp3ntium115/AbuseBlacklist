@@ -1,5 +1,3 @@
 # Domain-oriented feeds (DNS block candidates).
 # Keep refresh cadence respectful of each provider's terms.
 https://urlhaus.abuse.ch/downloads/hostfile/
-https://urlhaus.abuse.ch/downloads/domainblocklist/
-

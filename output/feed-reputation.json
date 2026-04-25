@@ -1,0 +1,112 @@
+[
+  {
+    "match": "spamhaus.org/drop",
+    "name": "Spamhaus DROP",
+    "kind": "abuse",
+    "reputation_score": 0.95,
+    "confidence": 95,
+    "ttl_hours": 24,
+    "cadence": "daily",
+    "justification": "Spamhaus advisory drop-all-traffic netblocks for highly dangerous networks."
+  },
+  {
+    "match": "feodotracker.abuse.ch",
+    "name": "abuse.ch Feodo Tracker",
+    "kind": "abuse",
+    "reputation_score": 0.9,
+    "confidence": 90,
+    "ttl_hours": 24,
+    "cadence": "fast",
+    "justification": "Botnet C2 infrastructure observed by abuse.ch Feodo Tracker."
+  },
+  {
+    "match": "urlhaus.abuse.ch",
+    "name": "abuse.ch URLhaus",
+    "kind": "abuse",
+    "reputation_score": 0.88,
+    "confidence": 88,
+    "ttl_hours": 24,
+    "cadence": "daily",
+    "justification": "Malware distribution URLs and hosts from abuse.ch URLhaus."
+  },
+  {
+    "match": "threathive.net",
+    "name": "ThreatHive",
+    "kind": "abuse",
+    "reputation_score": 0.78,
+    "confidence": 78,
+    "ttl_hours": 24,
+    "cadence": "fast",
+    "justification": "Open-source intelligence and honeypot telemetry malicious IP blocklist."
+  },
+  {
+    "match": "dshield.org",
+    "name": "DShield",
+    "kind": "abuse",
+    "reputation_score": 0.75,
+    "confidence": 75,
+    "ttl_hours": 24,
+    "cadence": "hourly",
+    "justification": "Internet Storm Center/DShield attack telemetry."
+  },
+  {
+    "match": "rules.emergingthreats.net",
+    "name": "Emerging Threats compromised IPs",
+    "kind": "abuse",
+    "reputation_score": 0.72,
+    "confidence": 72,
+    "ttl_hours": 48,
+    "cadence": "daily",
+    "justification": "Compromised IP feed used for network threat detection and blocking."
+  },
+  {
+    "match": "lists.blocklist.de",
+    "name": "Blocklist.de",
+    "kind": "abuse",
+    "reputation_score": 0.6,
+    "confidence": 60,
+    "ttl_hours": 48,
+    "cadence": "community",
+    "justification": "Community attack reports from servers and fail2ban-style telemetry."
+  },
+  {
+    "match": "easyprivacy.txt",
+    "name": "EasyPrivacy",
+    "kind": "privacy",
+    "reputation_score": 0.7,
+    "confidence": 70,
+    "ttl_hours": 168,
+    "cadence": "weekly",
+    "justification": "Tracking, web bug, and information-collector domain filtering."
+  },
+  {
+    "match": "StevenBlack/hosts",
+    "name": "StevenBlack hosts",
+    "kind": "privacy",
+    "reputation_score": 0.68,
+    "confidence": 68,
+    "ttl_hours": 168,
+    "cadence": "weekly",
+    "justification": "Curated hosts aggregation for adware, malware, and tracking domains."
+  },
+  {
+    "match": "HostlistsRegistry/assets/filter_1.txt",
+    "name": "AdGuard DNS filter",
+    "kind": "privacy",
+    "reputation_score": 0.68,
+    "confidence": 68,
+    "ttl_hours": 168,
+    "cadence": "weekly",
+    "justification": "DNS-level privacy and ad/tracker blocking filter."
+  },
+  {
+    "match": "cisa.gov",
+    "name": "CISA advisory context",
+    "kind": "context",
+    "reputation_score": 0.8,
+    "confidence": 0,
+    "ttl_hours": 24,
+    "cadence": "daily",
+    "justification": "Official vulnerability and advisory context; never direct block evidence."
+  }
+]

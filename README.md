@@ -1,183 +1,260 @@
 # AbuseBlacklist
 
-Daily threatfeed dump for country CIDR blocking and open threat-intel IP feeds.
+Daily, GitHub-hosted blacklist distillation for country CIDR blocking, open abuse
+feeds, malware URL/domain feeds, privacy DNS feeds, and advisory context.
 
-This repo performs a daily GitHub Actions dump of:
+The repo is designed to publish pullable raw files for firewalls, Skynet,
+ipset, nftables, DNS blocklists, and audit tooling. It distinguishes three
+classes of data:
 
-- Country CIDR ranges from IPdeny for requested and high-risk/export-watchlist countries.
-- Open threat IP feeds from ThreatHive, abuse.ch Feodo Tracker, Spamhaus DROP/DROPv6, DShield, Emerging Threats, and Blocklist.de.
-- Open threat DNS/URL feeds from abuse.ch URLhaus for domain and URL distillation.
+- **Abuse intelligence**: malicious IPs, domains, and URLs from threat feeds.
+- **Policy country blocks**: IPdeny country CIDRs for selected countries.
+- **Privacy DNS filtering**: tracker/adware domains, kept separate from abuse proof.
 
-## Distillation deliverables (evidence gate)
+It does **not** generate law-enforcement, honeypot, or surveillance-evasion
+target lists. Privacy filtering is limited to public tracker/adware DNS lists
+and documented policy domains.
 
-This repository now publishes distilled indicators across all requested network types:
+## Primary Pull URLs
 
-- IPv4 CIDR/IP outputs
-- IPv6 CIDR/IP outputs
-- DNS/domain outputs
-- URL outputs
-
-Primary output files:
+Skynet broad IPv4 feed:
 
 ```text
-output/combined-ipv4.txt
-output/combined-ipv6.txt
-output/threatfeed-ips.txt
-output/threat-domains.txt
-output/threat-urls.txt
-output/source-manifest.json
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/combined-ipv4.txt
 ```
 
-## Architecture graph (current implementation)
+Skynet high-confidence abuse-only IPv4 feed:
 
-```mermaid
-flowchart LR
-  subgraph upstream["Upstream feeds"]
-    ipdeny["IPdeny country CIDRs"]
-    feodo["abuse.ch Feodo (base + recommended)"]
-    spamhaus["Spamhaus DROP + DROPv6"]
-    threathive["ThreatHive"]
-    dshield["DShield"]
-    et["Emerging Threats"]
-    blde["Blocklist.de (all + service lists)"]
-  end
-
-  subgraph build["scripts/build_blocklists.py"]
-    fetch["Fetch source payloads"]
-    parse["Parse + normalize records"]
-    split["Split by type (country vs threat)"]
-    dedupe["Dedupe + validate CIDRs/IPs"]
-    emit["Emit text + firewall + manifest outputs"]
-  end
-
-  subgraph outputs["Published artifacts"]
-    geo4["country-blocklist-ipv4.txt"]
-    geo6["country-blocklist-ipv6.txt"]
-    tfeed["threatfeed-ips.txt"]
-    c4["combined-ipv4.txt"]
-    c6["combined-ipv6.txt"]
-    ipset["ipset.restore"]
-    nft["nftables-blocklist.nft"]
-    manifest["source-manifest.json"]
-  end
-
-  ipdeny --> fetch
-  feodo --> fetch
-  spamhaus --> fetch
-  threathive --> fetch
-  dshield --> fetch
-  et --> fetch
-  blde --> fetch
-
-  fetch --> parse --> split --> dedupe --> emit
-  emit --> geo4
-  emit --> geo6
-  emit --> tfeed
-  emit --> c4
-  emit --> c6
-  emit --> ipset
-  emit --> nft
-  emit --> manifest
+```text
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/high-confidence-ipv4.txt
 ```
 
-## Workflow graph (current GitHub Actions jobs)
+Router command example:
 
-```mermaid
-flowchart TD
-  schedule["schedule: 17 3 * * *"] --> gha["daily-dump.yml"]
-  manual["workflow_dispatch"] --> gha
-  gha --> checkout["Checkout repository"]
-  checkout --> setup["Set up Python runtime"]
-  setup --> runbuild["Run scripts/build_blocklists.py"]
-  runbuild --> stage["git add output/* blacklist.txt"]
-  stage --> commit{"Changes detected?"}
-  commit -- yes --> push["Commit + push to main"]
-  commit -- no --> noop["Exit without commit"]
+```bash
+/jffs/scripts/firewall import blacklist https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/high-confidence-ipv4.txt
 ```
 
-```mermaid
-flowchart LR
-  fast["fast-feed-health.yml\n7,22,37,52 * * * *"] --> monitor["Availability probes only"]
-  community["community-feed-health.yml\n9,39 * * * *"] --> monitor
-  hourly["hourly-feed-health.yml\n13 * * * *"] --> monitor
-  monitor --> daily["daily-dump.yml\n17 3 * * *\nfull build + publish"]
-```
+Use `combined-ipv4.txt` if you want country policy blocks plus abuse feeds.
+Use `high-confidence-ipv4.txt` if you want abuse-feed evidence without country
+policy ranges.
 
-## Target staged workflow (recommended next step)
-
-```mermaid
-flowchart LR
-  fast["fast-feeds.yml\nFeodo + ThreatHive\n(15m cadence)"] --> merge["daily-snapshot.yml"]
-  community["community-feeds.yml\nBlocklist.de\n(30m cadence)"] --> merge
-  hourly["hourly-feeds.yml\nDShield\n(hourly)"] --> merge
-  daily["daily-authoritative.yml\nSpamhaus + geo sources\n(daily)"] --> merge
-  merge --> publish["Publish output/ + feed/\n(generated branch or Pages)"]
-  publish --> consumers["Routers, firewalls, SIEM,\nexternal consumers"]
-```
-
-## Rollout timeline graph (recommended)
-
-```mermaid
-flowchart LR
-  w1["Week 1: stabilize publication"] --> w2["Week 2: add metadata governance"]
-  w2 --> w3["Week 3: add Atom/RSS + snapshots"]
-  w3 --> w4["Week 4: add provenance attestations + signed tags"]
-  w4 --> w5["Week 5: RIR/NRO country derivation primary"]
-  w5 --> w6["Week 6: optional derived IOC enrichment (feature-flagged)"]
-```
-
-## Daily Action
-
-The workflow runs daily at **03:17 UTC**:
-
-```yaml
-on:
-  schedule:
-    - cron: "17 3 * * *"
-  workflow_dispatch: {}
-```
-
-It rebuilds and commits:
+## Generated Artifacts
 
 ```text
 output/source-manifest.json
+output/feed-reputation.json
+output/scored-indicators.json
+output/scored-indicators.jsonl
+output/advisory-context.json
 output/country-blocklist-ipv4.txt
 output/country-blocklist-ipv6.txt
 output/threatfeed-ips.txt
 output/threat-domains.txt
 output/threat-urls.txt
+output/privacy-domains.txt
+output/dns-blocklist.txt
+output/high-confidence-ipv4.txt
+output/high-confidence-ipv6.txt
+output/high-confidence-domains.txt
+output/high-confidence-urls.txt
 output/combined-ipv4.txt
 output/combined-ipv6.txt
 output/ipset.restore
 output/nftables-blocklist.nft
 ```
 
-## Raw pull URLs
+Raw URLs:
 
 ```text
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/source-manifest.json
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/feed-reputation.json
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/scored-indicators.jsonl
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/advisory-context.json
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/combined-ipv4.txt
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/combined-ipv6.txt
-https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/country-blocklist-ipv4.txt
-https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/country-blocklist-ipv6.txt
-https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/threatfeed-ips.txt
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/high-confidence-ipv4.txt
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/high-confidence-ipv6.txt
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/threat-domains.txt
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/threat-urls.txt
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/privacy-domains.txt
+https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/dns-blocklist.txt
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/ipset.restore
 https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/nftables-blocklist.nft
-https://raw.githubusercontent.com/Ununp3ntium115/AbuseBlacklist/main/output/source-manifest.json
 ```
 
-## Run manually
+## Architecture Graph
 
-Use GitHub Actions > Daily threatfeed dump > Run workflow.
+```mermaid
+flowchart LR
+  subgraph policy["Policy country sources"]
+    ipdeny["IPdeny country CIDRs\nIPv4 + IPv6 where published"]
+  end
 
-Or run locally:
+  subgraph abuse["Abuse intelligence sources"]
+    spamhaus["Spamhaus DROP / DROPv6"]
+    feodo["abuse.ch Feodo Tracker"]
+    urlhaus["abuse.ch URLhaus"]
+    dshield["DShield / ISC"]
+    et["Emerging Threats compromised IPs"]
+    blde["Blocklist.de service reports"]
+    threathive["ThreatHive"]
+  end
+
+  subgraph privacy["Privacy DNS sources"]
+    easyprivacy["EasyPrivacy"]
+    stevenblack["StevenBlack hosts"]
+    adguard["AdGuard DNS filter"]
+  end
+
+  subgraph context["Context-only sources"]
+    cisa["CISA advisories + KEV JSON"]
+    yara["Optional reviewed raw YARA files"]
+  end
+
+  subgraph builder["scripts/build_blocklists.py"]
+    fetch["Fetch with respectful timeouts"]
+    parse["Parse IPv4 / IPv6 / FQDN / URL"]
+    safe["YARA safe extractor\nquoted network IOCs only"]
+    score["Score + attach source reputation"]
+    emit["Emit blocklists, metadata, manifest"]
+  end
+
+  ipdeny --> fetch
+  spamhaus --> fetch
+  feodo --> fetch
+  urlhaus --> fetch
+  dshield --> fetch
+  et --> fetch
+  blde --> fetch
+  threathive --> fetch
+  easyprivacy --> fetch
+  stevenblack --> fetch
+  adguard --> fetch
+  cisa --> fetch
+  yara --> safe
+  fetch --> parse --> score --> emit
+  safe --> score
+```
+
+## Output Graph
+
+```mermaid
+flowchart TD
+  score["Scored indicator records"] --> abuseHigh["high-confidence-ipv4/ipv6/domains/urls"]
+  score --> broad["combined-ipv4 + combined-ipv6"]
+  score --> metadata["scored-indicators.jsonl\nfeed-reputation.json\nsource-manifest.json"]
+
+  country["Country CIDRs"] --> countryOut["country-blocklist-ipv4/ipv6"]
+  country --> broad
+
+  threat["Abuse feeds"] --> threatOut["threatfeed-ips\nthreat-domains\nthreat-urls"]
+  threat --> broad
+  threat --> abuseHigh
+
+  privacy["Privacy DNS feeds"] --> privacyOut["privacy-domains.txt"]
+  privacy --> dns["dns-blocklist.txt"]
+  threatOut --> dns
+
+  broad --> firewall["ipset.restore\nnftables-blocklist.nft"]
+```
+
+## Scheduled Workflow Graph
+
+```mermaid
+flowchart LR
+  fast["Fast feed health\nFeodo + ThreatHive\n7,22,37,52 * * * *"] --> daily["Daily full distillation\n17 3 * * *"]
+  community["Community feed health\nBlocklist.de\n9,39 * * * *"] --> daily
+  hourly["Hourly feed health\nDShield\n13 * * * *"] --> daily
+  advisory["Advisory context health\nCISA RSS/KEV\n11 2 * * *"] --> daily
+  privacy["Privacy feed health\nlarge DNS lists\n41 4 * * 0"] --> daily
+  push["Push to config/feeds/scripts/workflow"] --> daily
+  manual["workflow_dispatch"] --> daily
+  daily --> commit["Commit changed output/* to main"]
+```
+
+The high-frequency workflows only make lightweight `HEAD` probes. The full
+payload ingestion runs once daily, or manually, so upstream sources are not
+hammered.
+
+## Scoring And Justification
+
+Each indicator is scored from source reputation, source confidence, and
+corroboration. Detailed source reasoning lives in `output/feed-reputation.json`;
+per-indicator compact metadata lives in `output/scored-indicators.jsonl`.
+
+Example JSONL record:
+
+```json
+{"indicator":"203.0.113.10/32","type":"ipv4","confidence_score":90,"reputation_score":0.9,"source_count":1,"sources":["abuse.ch Feodo Tracker"],"ttl_hours":24,"enforcement":"abuse"}
+```
+
+Default source model:
+
+| Source | Use | Score | Reason |
+| --- | --- | ---: | --- |
+| Spamhaus DROP / DROPv6 | Abuse IP ranges | 95 | Advisory drop-all-traffic networks. |
+| abuse.ch Feodo Tracker | Botnet C2 IPs | 90 | Active or recent botnet C2 infrastructure. |
+| abuse.ch URLhaus | Malware URLs/domains | 88 | Malware distribution URLs and hosts. |
+| ThreatHive | Malicious IPs | 78 | OSINT and honeypot telemetry. |
+| DShield | Attack telemetry IPs | 75 | Internet Storm Center/DShield observations. |
+| Emerging Threats | Compromised IPs | 72 | Compromised infrastructure feed. |
+| Blocklist.de | Reported attacker IPs | 60 | Useful but noisier community telemetry. |
+| IPdeny | Country policy CIDRs | 55 | Geo-policy block, not abuse evidence. |
+| Privacy DNS feeds | Tracker/adware DNS | 68-70 | Privacy filtering, not abuse proof. |
+
+High-confidence outputs require `confidence_score >= 75` and `enforcement ==
+"abuse"`. Country policy CIDRs and privacy DNS entries are intentionally excluded
+from high-confidence abuse files.
+
+## Advisory Context
+
+`feeds/advisory-context-feeds.txt` currently tracks:
+
+- CISA Cybersecurity Advisories RSS
+- CISA Alerts RSS
+- CISA Cybersecurity Advisories RSS subset
+- CISA Known Exploited Vulnerabilities JSON
+
+These sources generate `output/advisory-context.json`. They are context only:
+news, advisories, and KEV entries do not create blocks by themselves. They are
+there to explain active campaigns and help review whether feed hits line up with
+current public reporting.
+
+## YARA IOC Extraction Policy
+
+`feeds/yara-ioc-feeds.txt` accepts direct raw `.yar` or `.yara` URLs, but it is
+empty by default. When populated, the builder extracts only:
+
+- quoted IPv4 or IPv6 literals
+- quoted fully-qualified domains
+- quoted HTTP(S) URLs
+
+It rejects generic strings, regex patterns, wildcard domains, mutexes, file
+paths, hashes, and broad text fragments. YARA-derived network IOCs still need
+source scoring and should be reviewed before being used for blocking.
+
+## Privacy DNS Boundary
+
+`privacy-domains.txt` and `dns-blocklist.txt` use public privacy/adware/tracker
+lists. This is for privacy filtering, not for evading monitoring, law
+enforcement systems, honeypots, or safety tooling. Requests for enumerated
+surveillance or honeypot infrastructure should be handled as a policy review
+problem, not as an automated target list.
+
+## Run Manually
 
 ```bash
 python3 scripts/build_blocklists.py
 ```
 
-## Firewall examples
+With a shorter per-source timeout:
+
+```bash
+python3 scripts/build_blocklists.py --timeout 45
+```
+
+## Firewall Examples
 
 ipset:
 
@@ -193,7 +270,24 @@ python3 scripts/build_blocklists.py
 sudo nft -f output/nftables-blocklist.nft
 ```
 
-## Current country dump list
+## Server Cron
+
+The repo also includes `cron/abuseblacklist.crontab` for non-GitHub servers:
+
+```cron
+17 3 * * * cd /opt/AbuseBlacklist && /usr/bin/env bash scripts/run_daily_update.sh >> /var/log/abuseblacklist-daily.log 2>&1
+```
+
+Install example:
+
+```bash
+git clone https://github.com/Ununp3ntium115/AbuseBlacklist.git /opt/AbuseBlacklist
+cd /opt/AbuseBlacklist
+chmod +x scripts/run_daily_update.sh
+crontab cron/abuseblacklist.crontab
+```
+
+## Country Policy List
 
 - Russia
 - China
@@ -216,9 +310,17 @@ sudo nft -f output/nftables-blocklist.nft
 - Zimbabwe
 - Democratic Republic of the Congo
 
+North Korea is included for IPv4. IPdeny does not currently publish an IPv6
+aggregate for `kp`, so the builder skips that known-missing IPv6 URL.
+
 ## Notes
 
-- This is intentionally broad and may block legitimate users, VPNs, cloud providers, CDNs, and partners.
-- Review each upstream source's license, terms, and rate limits.
+- This is intentionally broad and can block legitimate users, VPNs, cloud
+  providers, CDNs, partners, and researchers.
 - Geo-blocking is not a complete sanctions/export-control solution.
-- DNS/URL outputs are intended for abuse and malware blocking contexts; do not use them to target safety tooling, researchers, or lawful monitoring systems.
+- Review each upstream source's license, terms, and rate limits before production
+  use.
+- Prefer `high-confidence-*` outputs when false positives matter more than raw
+  coverage.
+- Prefer `combined-*` outputs when the goal is broad country-policy plus abuse
+  blocking.

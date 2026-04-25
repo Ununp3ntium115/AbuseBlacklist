@@ -1,0 +1,30 @@
+name: Advisory context health
+
+on:
+  schedule:
+    # Daily context-source probe. Advisory feeds are context only, not direct blocks.
+    - cron: "11 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Probe advisory context feeds
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+            "https://www.cisa.gov/cybersecurity-advisories/alerts.xml"
+            "https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml"
+            "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+          )
+          for u in "${urls[@]}"; do
+            echo "Checking $u"
+            curl -fsSLI --max-time 30 "$u" > /dev/null
+          done
+
