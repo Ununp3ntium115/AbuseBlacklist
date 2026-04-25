@@ -1,0 +1,42 @@
+name: Daily threatfeed dump
+
+on:
+  schedule:
+    # Daily at 03:17 UTC.
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-threatfeed-dump
+  cancel-in-progress: false
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build daily blocklist dump
+        run: python3 scripts/build_blocklists.py
+
+      - name: Show manifest stats
+        run: cat output/source-manifest.json
+
+      - name: Commit updated dump
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add output/
+          git diff --cached --quiet || git commit -m "Daily threatfeed dump $(date -u +'%Y-%m-%d')"
+          git push
