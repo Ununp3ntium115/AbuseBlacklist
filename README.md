@@ -214,14 +214,18 @@ Release notes include rule counts for:
 
 - IPv4 combined rules
 - IPv6 combined rules
+- Country IPv4/IPv6 policy rules
 - Threat IP rules
 - Threat DNS rules
 - Threat URL rules
+- Privacy DNS rules
 - DNS blocklist rules
 - High-confidence IPv4/IPv6/domain/URL rules
 
-Release assets include `combined-ipv4`, `combined-ipv6`, threat IP/domain/URL,
-DNS blocklist, high-confidence outputs, and firewall export files.
+Release assets include every generated file under `output/`: combined feeds,
+country policy feeds, threat IP/domain/URL feeds, privacy DNS, high-confidence
+abuse outputs, source manifest, feed reputation metadata, scored indicator JSON,
+advisory context, and firewall export files.
 
 ## Scoring And Justification
 
