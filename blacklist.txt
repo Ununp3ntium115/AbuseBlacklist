@@ -1,0 +1,10 @@
+# AbuseBlacklist Skynet import feed
+# Bootstrap file. The daily GitHub Action will regenerate output/combined-ipv4.txt.
+# Use this root file if Skynet/router has trouble resolving nested raw GitHub paths.
+#
+# Format: one IPv4, CIDR, or network per line.
+#
+# Safe bootstrap sample from TEST-NET ranges; these are documentation-only and not routable.
+192.0.2.0/24
+198.51.100.0/24
+203.0.113.0/24
