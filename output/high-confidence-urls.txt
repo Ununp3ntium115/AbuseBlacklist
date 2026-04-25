@@ -2372,7 +2372,6 @@ http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-03-06/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-03-12/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-03-15/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-04-01/info.zip
-http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-04-02/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-04-05/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-04-22/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Cancelamento/2024-05-02/info.zip
@@ -2541,7 +2540,6 @@ http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-01-15/
 http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-01-16/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-02-09/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-03-08/info.zip
-http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-03-20/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-03-21/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-04-15/info.zip
 http://177.70.102.228:8070/TmpFTP/01/Carta%20de%20Corre%C3%A7%C3%A3o/2024-05-07/info.zip
@@ -2812,7 +2810,6 @@ http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Con
 http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-16/info.zip
 http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-17/info.zip
 http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-18/info.zip
-http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-19/info.zip
 http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-20/info.zip
 http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-21/info.zip
 http://177.70.102.228:8070/TmpFTP/CT-e/Distribui%C3%A7%C3%A3o/02589791000162/Consulta%20Geral/2025-01-22/info.zip
@@ -4625,6 +4622,7 @@ http://182.126.116.146:37115/i
 http://182.126.120.210:46322/i
 http://182.126.195.10:53030/bin.sh
 http://182.126.195.10:53030/i
+http://182.126.95.184:42374/i
 http://182.127.115.109:59924/bin.sh
 http://182.127.115.109:59924/i
 http://182.127.153.219:59618/bin.sh
@@ -6227,6 +6225,7 @@ http://41.77.74.90:10702/i
 http://42.176.125.227:50287/i
 http://42.177.200.236:41439/bin.sh
 http://42.177.200.236:41439/i
+http://42.177.220.194:60093/bin.sh
 http://42.177.220.194:60093/i
 http://42.177.23.23:59988/bin.sh
 http://42.177.23.23:59988/i
@@ -12312,6 +12311,7 @@ https://silverhost.vg/
 https://sites.google.com/view/59bmj3vj18vh2/drive/storage/a/files/download?ID=625899581658508733
 https://smartermail.host/d/gof.com.my/gz2v8w/Y0QT8NPHHV1V
 https://soft-4.dex2lavel.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk
+https://soft-land-1.nov2liren.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk
 https://soft-wald-4.zex1liron.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk
 https://softcatalog.ru/builds/offers/12.exe
 https://solar-sanat.net/imagedan73.png
@@ -24746,6 +24746,9 @@ https://urlhaus.abuse.ch/url/3831689/
 https://urlhaus.abuse.ch/url/3831690/
 https://urlhaus.abuse.ch/url/3831691/
 https://urlhaus.abuse.ch/url/3831692/
+https://urlhaus.abuse.ch/url/3831693/
+https://urlhaus.abuse.ch/url/3831694/
+https://urlhaus.abuse.ch/url/3831695/
 https://urlhaus.abuse.ch/url/390009/
 https://urlhaus.abuse.ch/url/390013/
 https://urlhaus.abuse.ch/url/410755/
