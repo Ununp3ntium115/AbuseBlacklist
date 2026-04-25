@@ -1,0 +1,5 @@
+# URL-oriented feeds (for enrichment and URL filtering).
+# Extracted URLs are also parsed for host/domain distillation.
+https://urlhaus.abuse.ch/downloads/text_online/
+https://urlhaus.abuse.ch/downloads/csv_online/
+

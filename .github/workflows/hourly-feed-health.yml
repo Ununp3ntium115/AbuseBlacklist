@@ -1,0 +1,20 @@
+name: Hourly feed health
+
+on:
+  schedule:
+    - cron: "13 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Probe hourly feed
+        run: |
+          set -euo pipefail
+          curl -fsSLI --max-time 30 "https://www.dshield.org/block.txt" > /dev/null
+

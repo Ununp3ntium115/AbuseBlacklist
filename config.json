@@ -30,6 +30,8 @@
     "output/country-blocklist-ipv4.txt",
     "output/country-blocklist-ipv6.txt",
     "output/threatfeed-ips.txt",
+    "output/threat-domains.txt",
+    "output/threat-urls.txt",
     "output/combined-ipv4.txt",
     "output/combined-ipv6.txt",
     "output/source-manifest.json",
