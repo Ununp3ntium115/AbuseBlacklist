@@ -5,12 +5,12 @@
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
     "published": "Fri, 24 Apr 26 12:00:00 +0000",
     "domains": [
-      "www.cisa.gov",
+      "edit.cisa.gov",
       "www.cve.org"
     ],
     "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://edit.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cve.org/CVERecord?id=CVE-2024-57726",
       "https://www.cve.org/CVERecord?id=CVE-2024-57728",
       "https://www.cve.org/CVERecord?id=CVE-2024-7399",
@@ -73,14 +73,15 @@
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Thu, 23 Apr 26 12:00:00 +0000",
     "domains": [
+      "edit.cisa.gov",
       "www.cisa.gov",
       "www.cve.org"
     ],
     "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
       "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-39987"
     ],
     "blocking_policy": "context_only"
@@ -95,6 +96,7 @@
       "blog.talosintelligence.com",
       "cisa.dhs.gov",
       "cwe.mitre.org",
+      "edit.cisa.gov",
       "list.tmp",
       "myservices.cisa.gov",
       "niccs.cisa.gov",
@@ -128,6 +130,12 @@
       "https://blog.talosintelligence.com/uat-4356-firestarter/",
       "https://cwe.mitre.org/data/definitions/120.html",
       "https://cwe.mitre.org/data/definitions/862.html",
+      "https://edit.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0",
+      "https://edit.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://edit.cisa.gov/news-events/directives/ed-25-03-identify-and-mitigate-potential-compromise-cisco-devices",
+      "https://edit.cisa.gov/news-events/directives/supplemental-direction-ed-25-03-core-dump-and-hunt-instructions",
+      "https://edit.cisa.gov/news-events/directives/v1-ed-25-03-identify-and-mitigate-potential-compromise-cisco-devices",
+      "https://edit.cisa.gov/resources-tools/services/malware-next-generation-analysis",
       "https://myservices.cisa.gov/irf",
       "https://niccs.cisa.gov/tools/nice-framework/work-role/digital-forensics",
       "https://niccs.cisa.gov/tools/nice-framework/work-role/incident-response",
@@ -137,13 +145,8 @@
       "https://report.ncsc.gov.uk",
       "https://report.ncsc.gov.uk/",
       "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-persist-CISAED25-03",
-      "https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/directives/ed-25-03-identify-and-mitigate-potential-compromise-cisco-devices",
-      "https://www.cisa.gov/news-events/directives/supplemental-direction-ed-25-03-core-dump-and-hunt-instructions",
-      "https://www.cisa.gov/news-events/directives/v1-ed-25-03-identify-and-mitigate-potential-compromise-cisco-devices",
-      "https://www.cisa.gov/resources-tools/services/malware-next-generation-analysis",
       "https://www.cisa.gov/sites/default/files/2026-04/AR26-113A_MAR_FIRESTARTER_backdoor.pdf",
+      "https://www.cisa.gov/sites/default/files/2026-04/stix-FIRESTARTER.json",
       "https://www.cisco.com/c/en/us/support/docs/instructions-guides/220312-open-a-tac-support-case-for-fast-dedica.html",
       "https://www.cve.org/CVERecord?id=CVE-2025-20333",
       "https://www.cve.org/CVERecord?id=CVE-2025-20362",
@@ -306,14 +309,15 @@
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Wed, 22 Apr 26 12:00:00 +0000",
     "domains": [
+      "edit.cisa.gov",
       "www.cisa.gov",
       "www.cve.org"
     ],
     "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
       "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33825"
     ],
     "blocking_policy": "context_only"
@@ -727,14 +731,14 @@
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
     "published": "Mon, 20 Apr 26 12:00:00 +0000",
     "domains": [
-      "www.cisa.gov",
+      "edit.cisa.gov",
       "www.cve.org"
     ],
     "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
+      "https://edit.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/known-exploited-vulnerabilities",
+      "https://edit.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://edit.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2023-27351",
       "https://www.cve.org/CVERecord?id=CVE-2024-27199",
       "https://www.cve.org/CVERecord?id=CVE-2025-2749",
@@ -867,14 +871,15 @@
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Thu, 16 Apr 26 12:00:00 +0000",
     "domains": [
+      "edit.cisa.gov",
       "www.cisa.gov",
       "www.cve.org"
     ],
     "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/binding-operational-directive-22-01",
+      "https://edit.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
       "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-34197"
     ],
     "blocking_policy": "context_only"
@@ -935,8 +940,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-39987"
     ],
@@ -953,10 +956,30 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33825"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "\u200b\u200bSupply Chain Compromise Impacts Axios Node Package Manager\u200b",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+    "published": "Mon, 20 Apr 26 12:00:00 +0000",
+    "domains": [
+      "docs.npmjs.com",
+      "github.com",
+      "sfrclak.com",
+      "socket.dev",
+      "www.microsoft.com",
+      "www.stepsecurity.io"
+    ],
+    "urls": [
+      "https://docs.npmjs.com/packages-and-modules/securing-your-code",
+      "https://github.com/axios/axios/issues/10636",
+      "https://socket.dev/blog/axios-npm-package-compromised",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
     ],
     "blocking_policy": "context_only"
   },
@@ -987,28 +1010,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "\u200b\u200bSupply Chain Compromise Impacts Axios Node Package Manager\u200b",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-    "published": "Mon, 20 Apr 26 12:00:00 +0000",
-    "domains": [
-      "docs.npmjs.com",
-      "github.com",
-      "sfrclak.com",
-      "socket.dev",
-      "www.microsoft.com",
-      "www.stepsecurity.io"
-    ],
-    "urls": [
-      "https://docs.npmjs.com/packages-and-modules/securing-your-code",
-      "https://github.com/axios/axios/issues/10636",
-      "https://socket.dev/blog/axios-npm-package-compromised",
-      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
-      "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Thu, 16 Apr 26 12:00:00 +0000",
@@ -1018,8 +1019,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-34197"
     ],
@@ -1036,8 +1035,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2009-0238",
       "https://www.cve.org/CVERecord?id=CVE-2026-32201"
@@ -1055,8 +1052,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2012-1854",
       "https://www.cve.org/CVERecord?id=CVE-2020-9715",
@@ -1079,8 +1074,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-1340"
     ],
@@ -1097,8 +1090,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-35616"
     ],
@@ -1130,8 +1121,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-5281"
     ],
@@ -1148,8 +1137,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-3055"
     ],
@@ -1166,8 +1153,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2025-53521"
     ],
@@ -1184,8 +1169,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33634"
     ],
@@ -1202,8 +1185,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33017"
     ],
@@ -1220,8 +1201,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2025-31277",
       "https://www.cve.org/CVERecord?id=CVE-2025-32432",
@@ -1251,42 +1230,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-    "published": "Wed, 18 Mar 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2026-20963"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "published": "Wed, 18 Mar 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2025-66376"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
     "title": "CISA Urges Endpoint Management System Hardening After Cyberattack Against US Organization",
     "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
     "published": "Wed, 18 Mar 26 12:00:00 +0000",
@@ -1304,6 +1247,38 @@
       "https://techcommunity.microsoft.com/blog/intunecustomersuccess/best-practices-for-securing-microsoft-intune/4502117",
       "https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf",
       "https://www.stryker.com/us/en/about/news/2026/a-message-to-our-customers-03-2026.html"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+    "published": "Wed, 18 Mar 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
+      "https://www.cve.org/CVERecord?id=CVE-2026-20963"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published": "Wed, 18 Mar 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
+      "https://www.cve.org/CVERecord?id=CVE-2025-66376"
     ],
     "blocking_policy": "context_only"
   },
@@ -1336,8 +1311,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-3909",
       "https://www.cve.org/CVERecord?id=CVE-2026-3910"
@@ -1373,8 +1346,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2021-22054",
       "https://www.cve.org/CVERecord?id=CVE-2025-26399",
@@ -1393,8 +1364,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2017-7921",
       "https://www.cve.org/CVERecord?id=CVE-2021-22681",
@@ -1415,8 +1384,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-21385",
       "https://www.cve.org/CVERecord?id=CVE-2026-22719"
@@ -1470,8 +1437,6 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-25108"
     ],
@@ -1488,7 +1453,6 @@
       "cybertoolkit.service.ncsc.gov.uk",
       "ncsc.gov.uk",
       "urldefense.us",
-      "www.cisa.gov",
       "www.justice.gov",
       "www.ncsc.gov.uk"
     ],
@@ -1501,7 +1465,6 @@
       "https://cybertoolkit.service.ncsc.gov.uk/",
       "https://urldefense.us/v3/__https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices__",
       "https://urldefense.us/v3/__https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices__",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj",
       "https://www.justice.gov/archives/opa/pr/court-authorized-operation-disrupts-worldwide-botnet-used-peoples-republic-china-state",
       "https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical",
       "https://www.ncsc.gov.uk/collection/cyber-assessment-framework",
@@ -1525,6 +1488,7 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
     "published": "Mon, 06 Apr 2026 07:03:58 EDT",
     "domains": [
+      "508c.pdf",
       "aa26-097a.stix",
       "attack.mitre.org",
       "cisa.dhs.gov",
@@ -1563,7 +1527,6 @@
       "https://www.cisa.gov/resources-tools/resources/bulletproof-defense-mitigating-risks-bulletproof-hosting-providers",
       "https://www.cisa.gov/resources-tools/resources/secure-demand-priority-considerations-operational-technology-owners-and-operators-when-selecting",
       "https://www.cisa.gov/securebydesign",
-      "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A-Iranian-Affiliated-Cyber-Actors-Exploit-Programmable-Logic-Controllers-Across-US-Critical-Infrastructure_508c.pdf",
       "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A.stix_.json",
       "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A.stix_.xml",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/energy-sector",
@@ -1588,6 +1551,7 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a",
     "published": "Fri, 05 Dec 2025 14:35:38 EST",
     "domains": [
+      "0.pdf",
       "attack.mitre.org",
       "cisa.dhs.gov",
       "cyber.gc.ca",
@@ -1643,7 +1607,6 @@
       "https://www.cisa.gov/resources-tools/resources/top-cyber-actions-securing-water-systems",
       "https://www.cisa.gov/sbom",
       "https://www.cisa.gov/securebydesign",
-      "https://www.cisa.gov/sites/default/files/2025-12/aa25-343a-pro-russia-hacktivists-conduct-attacks_0.pdf",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/energy-sector",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/food-and-agriculture-sector",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/water-and-wastewater-sector",
@@ -1665,6 +1628,7 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a",
     "published": "Mon, 22 Sep 2025 11:12:49 EDT",
     "domains": [
+      "20activity.jpg",
       "aa.sh",
       "aa25-266a-json.stix",
       "aa25-266a-stix.stix",
@@ -1740,7 +1704,6 @@
       "https://www.cisa.gov/sites/default/files/2025-09/AA25-266A-JSON.stix_.json",
       "https://www.cisa.gov/sites/default/files/2025-09/AA25-266A-STIX.stix_.xml",
       "https://www.cisa.gov/sites/default/files/2025-09/AA25-266A_advisory_cisa_shares_lessons_learned_from_ir_engagement.pdf",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-09/Overview%20of%20Threat%20Actor%20Activity.jpg?itok=uRWN4aW3",
       "https://www.cve.org/CVERecord?id=CVE-2016-5195",
       "https://www.cve.org/CVERecord?id=CVE-2024-36401"
     ],
@@ -1763,8 +1726,10 @@
       "map.tcl",
       "media.defense.gov",
       "mycap.pcap",
+      "networks.pdf",
       "sec.cloudapps.cisco.com",
       "siet.py",
+      "system.stix",
       "tac.pcap",
       "tclproxy.tcl",
       "www.cisa.gov",
@@ -1837,12 +1802,7 @@
       "https://sec.cloudapps.cisco.com/security/center/resources/securing_nx_os.html",
       "https://sec.cloudapps.cisco.com/security/center/softwarechecker.x",
       "https://sec.cloudapps.cisco.com/security/center/tacticalresources.x",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
-      "https://www.cisa.gov/sites/default/files/2025-09/AA25-239A_Countering_Chinese_State-Sponsored_Actors_Compromise_of_Networks_Worldwide_to_Feed_Global_Espionage_System.stix_.json",
-      "https://www.cisa.gov/sites/default/files/2025-09/AA25-239A_Countering_Chinese_State-Sponsored_Actors_Compromise_of_Networks_Worldwide_to_Feed_Global_Espionage_System.stix_.xml",
-      "https://www.cisa.gov/sites/default/files/2025-09/CSA_COUNTERING_CHINA_STATE_ACTORS_COMPROMISE_OF_NETWORKS.pdf",
-      "https://www.cisa.gov/topics/cyber-threats-and-advisories/nation-state-cyber-actors/china",
       "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-16/220270-use-cisco-ios-xe-hardening-guide.html",
       "https://www.cisco.com/c/en/us/support/docs/ip/access-lists/13608-21.html",
       "https://www.cnss.gov/CNSS/issuances/Policies.cfm",
@@ -1920,7 +1880,6 @@
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-212a",
       "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection",
       "https://www.cisa.gov/resources-tools/resources/principles-operational-technology-cyber-security",
-      "https://www.cisa.gov/sites/default/files/2025-08/joint-advisory-cisa-identifies-areas-for-cyber-hygiene-improvement-after-conducting-proactive-threat-hunt-508c.pdf",
       "https://www.cisecurity.org/cis-benchmarks",
       "https://www.cyber.gov.au/sites/default/files/2024-08/best-practices-for-event-logging-and-threat-detection.pdf",
       "https://www.fbi.gov/contact-us/field-offices",
@@ -1938,6 +1897,9 @@
     "published": "Mon, 21 Jul 2025 10:11:24 EDT",
     "domains": [
       "2327991.exe",
+      "aa25-203a-interlock-stix.json",
+      "aa25-203a-interlock-stix.xml",
+      "aa25-203a-stopransomware-interlock-072225.pdf",
       "aisa.exe",
       "antimalware.exe",
       "anyconnectvpn.exe",
@@ -2031,15 +1993,8 @@
       "https://myservices.cisa.gov/irf",
       "https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-deploys-new-nodesnake-rat-on-universities/",
       "https://www.bleepingcomputer.com/news/security/meet-interlock-the-new-ransomware-targeting-freebsd-servers/",
-      "https://www.cisa.gov/cross-sector-cybersecurity-performance-goals",
-      "https://www.cisa.gov/cyber-hygiene-services",
       "https://www.cisa.gov/cybersecurity-performance-goals-cpgs",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a",
-      "https://www.cisa.gov/resources-tools/resources/stopransomware-guide",
-      "https://www.cisa.gov/sites/default/files/2025-07/AA25-203A-interlock-stix.json",
-      "https://www.cisa.gov/sites/default/files/2025-07/AA25-203A-interlock-stix.xml",
-      "https://www.cisa.gov/sites/default/files/2025-07/aa25-203a-stopransomware-interlock-072225.pdf",
-      "https://www.cisa.gov/stopransomware",
       "https://www.fbi.gov/contact-us/field-offices",
       "https://www.ic3.gov/Home/ComplaintChoice",
       "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clickfix-deception-a-social-engineering-tactic-to-deploy-malware/"
@@ -2052,6 +2007,7 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a",
     "published": "Thu, 12 Jun 2025 10:29:54 EDT",
     "domains": [
+      "aa25-163a-ransomware-simplehelp-rmm-compromise.pdf",
       "aaa.exe",
       "bbb.exe",
       "cisa.gov",
@@ -2075,7 +2031,6 @@
       "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a",
       "https://www.cisa.gov/sbom",
-      "https://www.cisa.gov/sites/default/files/2025-06/aa25-163a-ransomware-simplehelp-rmm-compromise.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2024-57727",
       "https://www.fbi.gov/contact-us/field-offices",
       "https://www.ic3.gov/",
@@ -2091,6 +2046,7 @@
     "domains": [
       "000.pe",
       "1cooldns.com",
+      "20entities.png",
       "42web.io",
       "4cloud.click",
       "4ginfosource.com",
@@ -2271,7 +2227,6 @@
       "https://www.cisa.gov/resources-tools/resources/identifying-and-mitigating-living-land-techniques",
       "https://www.cisa.gov/sites/default/files/AA25-141A_Russian_GRU_Targeting_Western_Logistics_Entities_and_Technology_Companies.stix.json",
       "https://www.cisa.gov/sites/default/files/AA25-141A_Russian_GRU_Targeting_Western_Logistics_Entities_and_Technology_Companies.stix.xml",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Countries%20with%20Targeted%20Entities.png?itok=UKD_QLvF",
       "https://www.cyber.gov.au/"
     ],
     "blocking_policy": "context_only"
@@ -2282,6 +2237,15 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b",
     "published": "Tue, 20 May 2025 15:20:23 EDT",
     "domains": [
+      "20box.png",
+      "20check.png",
+      "20line.png",
+      "20memory.png",
+      "20request.png",
+      "20routine.png",
+      "20strings.png",
+      "20value.png",
+      "aa25-141b.stix",
       "advennture.top",
       "attack.mitre.org",
       "authorizev.site",
@@ -2424,20 +2388,6 @@
       "https://attack.mitre.org/versions/v17/techniques/T1566/002/",
       "https://www.cisa.gov/cross-sector-cybersecurity-performance-goals",
       "https://www.cisa.gov/cybersecurity-performance-goals-cpgs",
-      "https://www.cisa.gov/sites/default/files/2025-05/AA25-141B-Threat-Actors-Deploy-LummaC2-Malware-to-Exfiltrate-Sensitive-Data-from-Organizations.stix_.json",
-      "https://www.cisa.gov/sites/default/files/2025-05/AA25-141B.stix_.xml",
-      "https://www.cisa.gov/sites/default/files/2025-05/aa25-141b-threat-actors-deploy-lummac2-malware-to-exfiltrate-sensitive-data-from-organizations.pdf",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%201%20-%20LummaC2%20Main%20Routine.png?itok=4-3q4JJo",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%2010%20-%20Decoded%20Command%20Line%20in%20Memory.png?itok=QsVu940K",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%2011%20-%20Decoded%20Strings.png?itok=4A8LZC0N",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%202%20-%20Message%20Box.png?itok=ORRAaghu",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%203%20-%20Post%20Request.png?itok=nPWt04-t",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%204%20-%20Code%20Saving%20Successful%20Callback%20Request.png?itok=txJPFJab",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%205%20-%20User%20and%20Computer%20Name%20Check.png?itok=ZYtbs3GM",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%206%20-%20Second%20POST%20Request.png?itok=4cdoQzJY",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%207%20-%20Parsing%20of%20ex%20JSON%20Value.png?itok=rotohQzR",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%208%20-%20Parsing%20of%20c%20JSON%20Value.png?itok=CH958VKZ",
-      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%209%20-%20Self-Deletion%20Command%20Line.png?itok=BqtyYanh",
       "https://www.fbi.gov/contact-us/field-offices"
     ],
     "blocking_policy": "context_only"
