@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-10T04:36:14.879670+00:00",
+  "generated_at_utc": "2026-05-11T04:43:51.215026+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 134686,
+      "ipv4": 113832,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -747,7 +747,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 0,
-      "domains": 9,
+      "domains": 11,
       "urls": 0
     },
     {
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 21381,
-      "ipv6": 213,
+      "ipv4": 21665,
+      "ipv6": 192,
       "domains": 0,
       "urls": 0
     },
@@ -796,7 +796,7 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 4755,
+      "ipv4": 4487,
       "ipv6": 1,
       "domains": 0,
       "urls": 0
@@ -813,8 +813,8 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 13111,
-      "ipv6": 12,
+      "ipv4": 13827,
+      "ipv6": 9,
       "domains": 0,
       "urls": 0
     },
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 9148,
-      "ipv6": 156,
+      "ipv4": 9113,
+      "ipv6": 176,
       "domains": 0,
       "urls": 0
     },
@@ -847,8 +847,8 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1702,
-      "ipv6": 44,
+      "ipv4": 1564,
+      "ipv6": 6,
       "domains": 0,
       "urls": 0
     },
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1009,
-      "ipv6": 154,
+      "ipv4": 1017,
+      "ipv6": 150,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 1358,
+      "domains": 1133,
       "urls": 0
     },
     {
@@ -916,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 609,
-      "urls": 10779
+      "domains": 528,
+      "urls": 11034
     },
     {
       "name": "abuse.ch URLhaus",
@@ -933,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 625,
-      "urls": 21564
+      "domains": 544,
+      "urls": 22068
     },
     {
       "name": "EasyPrivacy",
@@ -950,7 +950,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 1,
-      "domains": 55049,
+      "domains": 55051,
       "urls": 6
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 71,
       "ipv6": 0,
-      "domains": 163652,
+      "domains": 163849,
       "urls": 0
     },
     {
@@ -1081,18 +1081,18 @@
   "stats": {
     "country_ipv4_raw": 18308,
     "country_ipv6_raw": 5715,
-    "threat_ipv4_raw": 136607,
-    "threat_ipv6_raw": 307,
-    "threat_domains_raw": 1538,
-    "threat_urls_raw": 21567,
-    "privacy_domains_raw": 265948,
-    "dns_blocklist_raw": 267114,
-    "scored_indicators": 183969,
-    "privacy_indicators_unscored": 265678,
-    "high_confidence_indicators": 159517,
+    "threat_ipv4_raw": 115763,
+    "threat_ipv6_raw": 286,
+    "threat_domains_raw": 1335,
+    "threat_urls_raw": 22068,
+    "privacy_domains_raw": 266147,
+    "dns_blocklist_raw": 267180,
+    "scored_indicators": 163402,
+    "privacy_indicators_unscored": 265947,
+    "high_confidence_indicators": 138965,
     "advisory_context_items": 120,
-    "combined_ipv4_collapsed": 102411,
-    "combined_ipv6_collapsed": 6004,
+    "combined_ipv4_collapsed": 85783,
+    "combined_ipv6_collapsed": 5983,
     "sources_total": 64,
     "sources_ok": 64,
     "sources_failed": 0
