@@ -1,52 +1,800 @@
 [
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05",
-    "published": "Tue, 12 May 26 12:00:00 +0000",
+    "title": "Siemens Siemens ROS#",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
     "domains": [
       "cisa.gov",
       "cwe.mitre.org",
       "github.com",
-      "search.abb.com",
       "www.cisa.gov",
       "www.cve.org",
-      "www.first.org"
+      "www.first.org",
+      "www.siemens.com"
     ],
     "urls": [
-      "https://cwe.mitre.org/data/definitions/787.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-05.json",
-      "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011537&amp",
+      "https://cwe.mitre.org/data/definitions/23.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-08.json",
+      "https://github.com/siemens/ros-sharp/releases/tag/2.2.2",
       "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-15467",
-      "https://www.first.org/cvss/calculator/3.1"
+      "https://www.cve.org/CVERecord?id=CVE-2026-41551",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
     ],
     "blocking_policy": "context_only"
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Subnet Solutions PowerSYSTEM Center",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02",
-    "published": "Tue, 12 May 26 12:00:00 +0000",
+    "title": "Siemens gWAP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
     "domains": [
       "cisa.gov",
       "cwe.mitre.org",
       "github.com",
-      "subnet.com",
+      "node.js",
+      "support.sw.siemens.com",
       "www.cisa.gov",
       "www.cve.org",
-      "www.first.org"
+      "www.first.org",
+      "www.siemens.com"
     ],
     "urls": [
-      "https://cwe.mitre.org/data/definitions/863.html",
-      "https://cwe.mitre.org/data/definitions/93.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-02.json",
+      "https://cwe.mitre.org/data/definitions/113.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-01.json",
+      "https://support.sw.siemens.com/product/284395347/",
       "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-26289",
-      "https://www.cve.org/CVERecord?id=CVE-2026-33570",
-      "https://www.cve.org/CVERecord?id=CVE-2026-35504",
-      "https://www.cve.org/CVERecord?id=CVE-2026-35555",
-      "https://www.first.org/cvss/calculator/3.1"
+      "https://www.cve.org/CVERecord?id=CVE-2026-40175",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens SIMATIC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "control.hdr.length",
+      "control.vcc",
+      "cwe.mitre.org",
+      "darg.skb",
+      "description.constprop",
+      "github.com",
+      "hba.hdwqs",
+      "linuxtesting.org",
+      "mode.config",
+      "open.isra",
+      "support.industry.siemens.com",
+      "system.data",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/1025.html",
+      "https://cwe.mitre.org/data/definitions/119.html",
+      "https://cwe.mitre.org/data/definitions/121.html",
+      "https://cwe.mitre.org/data/definitions/125.html",
+      "https://cwe.mitre.org/data/definitions/1285.html",
+      "https://cwe.mitre.org/data/definitions/1286.html",
+      "https://cwe.mitre.org/data/definitions/150.html",
+      "https://cwe.mitre.org/data/definitions/190.html",
+      "https://cwe.mitre.org/data/definitions/20.html",
+      "https://cwe.mitre.org/data/definitions/200.html",
+      "https://cwe.mitre.org/data/definitions/208.html",
+      "https://cwe.mitre.org/data/definitions/23.html",
+      "https://cwe.mitre.org/data/definitions/273.html",
+      "https://cwe.mitre.org/data/definitions/284.html",
+      "https://cwe.mitre.org/data/definitions/306.html",
+      "https://cwe.mitre.org/data/definitions/362.html",
+      "https://cwe.mitre.org/data/definitions/364.html",
+      "https://cwe.mitre.org/data/definitions/366.html",
+      "https://cwe.mitre.org/data/definitions/369.html",
+      "https://cwe.mitre.org/data/definitions/385.html",
+      "https://cwe.mitre.org/data/definitions/394.html",
+      "https://cwe.mitre.org/data/definitions/400.html",
+      "https://cwe.mitre.org/data/definitions/401.html",
+      "https://cwe.mitre.org/data/definitions/402.html",
+      "https://cwe.mitre.org/data/definitions/404.html",
+      "https://cwe.mitre.org/data/definitions/407.html",
+      "https://cwe.mitre.org/data/definitions/415.html",
+      "https://cwe.mitre.org/data/definitions/416.html",
+      "https://cwe.mitre.org/data/definitions/476.html",
+      "https://cwe.mitre.org/data/definitions/573.html",
+      "https://cwe.mitre.org/data/definitions/617.html",
+      "https://cwe.mitre.org/data/definitions/664.html",
+      "https://cwe.mitre.org/data/definitions/667.html",
+      "https://cwe.mitre.org/data/definitions/674.html",
+      "https://cwe.mitre.org/data/definitions/754.html",
+      "https://cwe.mitre.org/data/definitions/757.html",
+      "https://cwe.mitre.org/data/definitions/770.html",
+      "https://cwe.mitre.org/data/definitions/772.html",
+      "https://cwe.mitre.org/data/definitions/787.html",
+      "https://cwe.mitre.org/data/definitions/79.html",
+      "https://cwe.mitre.org/data/definitions/805.html",
+      "https://cwe.mitre.org/data/definitions/820.html",
+      "https://cwe.mitre.org/data/definitions/833.html",
+      "https://cwe.mitre.org/data/definitions/835.html",
+      "https://cwe.mitre.org/data/definitions/908.html",
+      "https://cwe.mitre.org/data/definitions/911.html",
+      "https://github.Com/bcgit/bc-java/blob/main/pkix/src/main/java/org/bouncycastle/pkix/jcajce/PKIXCertPathReviewer.Java",
+      "https://github.Com/bcgit/bc-java/blob/main/prov/src/main/java/org/bouncycastle/x509/PKIXCertPathReviewer.Java",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-10.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/109814144/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2024-47704",
+      "https://www.cve.org/CVERecord?id=CVE-2024-57924",
+      "https://www.cve.org/CVERecord?id=CVE-2024-58240",
+      "https://www.cve.org/CVERecord?id=CVE-2025-14831",
+      "https://www.cve.org/CVERecord?id=CVE-2025-23143",
+      "https://www.cve.org/CVERecord?id=CVE-2025-23160",
+      "https://www.cve.org/CVERecord?id=CVE-2025-31257",
+      "https://www.cve.org/CVERecord?id=CVE-2025-37931",
+      "https://www.cve.org/CVERecord?id=CVE-2025-37968",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38322",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38347",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38491",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38502",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38552",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38614",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38670",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38676",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38677",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38679",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38680",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38681",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38683",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38684",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38685",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38687",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38691",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38693",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38694",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38695",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38696",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38697",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38698",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38699",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38700",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38701",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38702",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38706",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38707",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38708",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38711",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38712",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38713",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38714",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38715",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38721",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38723",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38724",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38725",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38727",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38728",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38729",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38732",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38735",
+      "https://www.cve.org/CVERecord?id=CVE-2025-38736",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39673",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39675",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39676",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39681",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39682",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39683",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39684",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39685",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39686",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39687",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39689",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39691",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39692",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39693",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39694",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39697",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39701",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39702",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39703",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39706",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39709",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39710",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39713",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39714",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39715",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39716",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39718",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39719",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39724",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39736",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39737",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39738",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39742",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39743",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39749",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39752",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39756",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39757",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39759",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39760",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39766",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39770",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39772",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39773",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39776",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39782",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39783",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39787",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39788",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39790",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39794",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39795",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39798",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39800",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39801",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39806",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39808",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39812",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39813",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39817",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39819",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39823",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39824",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39825",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39826",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39827",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39828",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39835",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39838",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39839",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39841",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39842",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39843",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39844",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39845",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39846",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39847",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39848",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39849",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39853",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39857",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39860",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39864",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39865",
+      "https://www.cve.org/CVERecord?id=CVE-2025-39866",
+      "https://www.cve.org/CVERecord?id=CVE-2025-40300",
+      "https://www.cve.org/CVERecord?id=CVE-2025-43368",
+      "https://www.cve.org/CVERecord?id=CVE-2025-47219",
+      "https://www.cve.org/CVERecord?id=CVE-2025-48989",
+      "https://www.cve.org/CVERecord?id=CVE-2025-53057",
+      "https://www.cve.org/CVERecord?id=CVE-2025-53066",
+      "https://www.cve.org/CVERecord?id=CVE-2025-55752",
+      "https://www.cve.org/CVERecord?id=CVE-2025-55754",
+      "https://www.cve.org/CVERecord?id=CVE-2025-6021",
+      "https://www.cve.org/CVERecord?id=CVE-2025-6052",
+      "https://www.cve.org/CVERecord?id=CVE-2025-61748",
+      "https://www.cve.org/CVERecord?id=CVE-2025-61795",
+      "https://www.cve.org/CVERecord?id=CVE-2025-7425",
+      "https://www.cve.org/CVERecord?id=CVE-2025-8916",
+      "https://www.cve.org/CVERecord?id=CVE-2025-9230",
+      "https://www.cve.org/CVERecord?id=CVE-2025-9231",
+      "https://www.cve.org/CVERecord?id=CVE-2025-9232",
+      "https://www.cve.org/CVERecord?id=CVE-2025-9820",
+      "https://www.cve.org/CVERecord?id=CVE-2026-21925",
+      "https://www.cve.org/CVERecord?id=CVE-2026-21932",
+      "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+      "https://www.cve.org/CVERecord?id=CVE-2026-21945",
+      "https://www.cve.org/CVERecord?id=CVE-2026-21947",
+      "https://www.cve.org/CVERecord?id=CVE-2026-22924",
+      "https://www.cve.org/CVERecord?id=CVE-2026-22925",
+      "https://www.cve.org/CVERecord?id=CVE-2026-2673",
+      "https://www.cve.org/CVERecord?id=CVE-2026-28387",
+      "https://www.cve.org/CVERecord?id=CVE-2026-28388",
+      "https://www.cve.org/CVERecord?id=CVE-2026-28389",
+      "https://www.cve.org/CVERecord?id=CVE-2026-28390",
+      "https://www.cve.org/CVERecord?id=CVE-2026-31789",
+      "https://www.cve.org/CVERecord?id=CVE-2026-31790",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Ruggedcom Rox",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/78.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-12.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/110002017/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-40949",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Ruggedcom Rox",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "company.example.com",
+      "cwe.mitre.org",
+      "github.com",
+      "parseaddr.py",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/120.html",
+      "https://cwe.mitre.org/data/definitions/121.html",
+      "https://cwe.mitre.org/data/definitions/122.html",
+      "https://cwe.mitre.org/data/definitions/125.html",
+      "https://cwe.mitre.org/data/definitions/1286.html",
+      "https://cwe.mitre.org/data/definitions/131.html",
+      "https://cwe.mitre.org/data/definitions/190.html",
+      "https://cwe.mitre.org/data/definitions/191.html",
+      "https://cwe.mitre.org/data/definitions/20.html",
+      "https://cwe.mitre.org/data/definitions/22.html",
+      "https://cwe.mitre.org/data/definitions/328.html",
+      "https://cwe.mitre.org/data/definitions/416.html",
+      "https://cwe.mitre.org/data/definitions/664.html",
+      "https://cwe.mitre.org/data/definitions/674.html",
+      "https://cwe.mitre.org/data/definitions/787.html",
+      "https://cwe.mitre.org/data/definitions/825.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-16.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/110002017/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2019-13103",
+      "https://www.cve.org/CVERecord?id=CVE-2019-13104",
+      "https://www.cve.org/CVERecord?id=CVE-2019-13106",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14192",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14193",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14194",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14195",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14196",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14197",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14198",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14199",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14200",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14201",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14202",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14203",
+      "https://www.cve.org/CVERecord?id=CVE-2019-14204",
+      "https://www.cve.org/CVERecord?id=CVE-2020-10648",
+      "https://www.cve.org/CVERecord?id=CVE-2022-2347",
+      "https://www.cve.org/CVERecord?id=CVE-2022-30552",
+      "https://www.cve.org/CVERecord?id=CVE-2022-30790",
+      "https://www.cve.org/CVERecord?id=CVE-2022-34835",
+      "https://www.cve.org/CVERecord?id=CVE-2023-27043",
+      "https://www.cve.org/CVERecord?id=CVE-2023-3019",
+      "https://www.cve.org/CVERecord?id=CVE-2024-22365",
+      "https://www.cve.org/CVERecord?id=CVE-2024-3447",
+      "https://www.cve.org/CVERecord?id=CVE-2024-57256",
+      "https://www.cve.org/CVERecord?id=CVE-2024-57258",
+      "https://www.cve.org/CVERecord?id=CVE-2025-0395",
+      "https://www.cve.org/CVERecord?id=CVE-2025-3576",
+      "https://www.cve.org/CVERecord?id=CVE-2025-46836",
+      "https://www.cve.org/CVERecord?id=CVE-2025-49794",
+      "https://www.cve.org/CVERecord?id=CVE-2025-49796",
+      "https://www.cve.org/CVERecord?id=CVE-2025-6020",
+      "https://www.cve.org/CVERecord?id=CVE-2025-7425",
+      "https://www.cve.org/CVERecord?id=CVE-2025-9714",
+      "https://www.first.org/cvss/calculator/3.0",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Simcenter Femap",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.sw.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/122.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-05.json",
+      "https://support.sw.siemens.com/product/275652363/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-12659",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Universal Robots Polyscope 5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "5.25.1.for",
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.universal-robots.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/78.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-17.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-8153",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.universal-robots.com/articles/ur/cybersecurity/cve-2026-8153-command-injection-in-the-polyscope-5-dashboard-server/"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Ruggedcom Rox",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-11",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/78.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-11.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/110002017/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-40947",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Teamcenter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "pdf.js",
+      "support.sw.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/754.html",
+      "https://cwe.mitre.org/data/definitions/79.html",
+      "https://cwe.mitre.org/data/definitions/798.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-04.json",
+      "https://support.sw.siemens.com/product/282219420/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2024-4367",
+      "https://www.cve.org/CVERecord?id=CVE-2026-33862",
+      "https://www.cve.org/CVERecord?id=CVE-2026-33893",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Solid Edge",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.sw.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/121.html",
+      "https://cwe.mitre.org/data/definitions/824.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-03.json",
+      "https://support.sw.siemens.com/product/246738425/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-44411",
+      "https://www.cve.org/CVERecord?id=CVE-2026-44412",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens SENTRON 7KT PAC1261 Data Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-14",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/444.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-14.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/109977717/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-22871",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Opcenter RDnL",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/306.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-09.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-27446",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Ruggedcom Rox",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-02",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/88.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-02.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/110002017/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-40948",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens SIMATIC S7 PLC Web Server",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-15",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/79.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-15.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/109478459/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109773914/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-25786",
+      "https://www.cve.org/CVERecord?id=CVE-2026-25787",
+      "https://www.cve.org/CVERecord?id=CVE-2026-25789",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cve.org/CVERecord?id=CVE-2026-20182"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens SIMATIC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-07",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/1188.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/109481300",
+      "https://support.industry.siemens.com/cs/ww/en/view/109825605/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-27662",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens SIPROTEC 5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-13",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/334.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-13.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/109757433/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109796884/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109814150/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2024-54017",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/gridsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens Industrial Devices",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-06",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/476.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-06.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/1029552/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109476571/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109754628/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109773044/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109781049/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109989310/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109992747/",
+      "https://support.industry.siemens.com/cs/ww/en/view/109996102/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-40833",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
     ],
     "blocking_policy": "context_only"
   },
@@ -95,6 +843,55 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "ABB Automation Builder Gateway for Windows",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04",
+    "published": "Tue, 12 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/1188.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2024-41975",
+      "https://www.first.org/cvss/calculator/3.1"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Subnet Solutions PowerSYSTEM Center",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02",
+    "published": "Tue, 12 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "subnet.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/863.html",
+      "https://cwe.mitre.org/data/definitions/93.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-02.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-26289",
+      "https://www.cve.org/CVERecord?id=CVE-2026-33570",
+      "https://www.cve.org/CVERecord?id=CVE-2026-35504",
+      "https://www.cve.org/CVERecord?id=CVE-2026-35555",
+      "https://www.first.org/cvss/calculator/3.1"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "ABB AC500 V3 Multiple Vulnerabilities",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-03",
     "published": "Tue, 12 May 26 12:00:00 +0000",
@@ -123,22 +920,24 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB Automation Builder Gateway for Windows",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04",
+    "title": "ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05",
     "published": "Tue, 12 May 26 12:00:00 +0000",
     "domains": [
       "cisa.gov",
       "cwe.mitre.org",
       "github.com",
+      "search.abb.com",
       "www.cisa.gov",
       "www.cve.org",
       "www.first.org"
     ],
     "urls": [
-      "https://cwe.mitre.org/data/definitions/1188.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json",
+      "https://cwe.mitre.org/data/definitions/787.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-05.json",
+      "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011537&amp",
       "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2024-41975",
+      "https://www.cve.org/CVERecord?id=CVE-2025-15467",
       "https://www.first.org/cvss/calculator/3.1"
     ],
     "blocking_policy": "context_only"
@@ -182,21 +981,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "published": "Thu, 07 May 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cve.org/CVERecord?id=CVE-2026-6973"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "MAXHUB Pivot Client Application",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01",
     "published": "Thu, 07 May 26 12:00:00 +0000",
@@ -222,6 +1006,21 @@
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published": "Thu, 07 May 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cve.org/CVERecord?id=CVE-2026-6973"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Wed, 06 May 26 12:00:00 +0000",
     "domains": [
@@ -231,34 +1030,6 @@
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cve.org/CVERecord?id=CVE-2026-0300"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Hitachi Energy PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01",
-    "published": "Tue, 05 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "library.e.abb.com",
-      "publisher.hitachienergy.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org",
-      "www.hitachienergy.com"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/22.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-01.json",
-      "https://library.e.abb.com/public/ec33308ad2c34f92bab09df09c66954d/2NGA002813_PCM600_Sharpziplib_Vulnerability.pdf",
-      "https://publisher.hitachienergy.com/preview?DocumentID=8DBD000235&amp",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2018-1002208",
-      "https://www.first.org/cvss/calculator/3.1",
-      "https://www.hitachienergy.com/contact-us/"
     ],
     "blocking_policy": "context_only"
   },
@@ -287,378 +1058,17 @@
     "blocking_policy": "context_only"
   },
   {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB B&R PVI",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02",
-    "published": "Tue, 05 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/532.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-02.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-0936",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB B&R Automation Runtime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
-    "published": "Tue, 05 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/770.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-03.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-11044",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB B&R Automation Studio",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
-    "published": "Tue, 05 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/295.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-04.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-11043",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "published": "Fri, 01 May 26 12:00:00 +0000",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
     "domains": [
       "www.cisa.gov",
       "www.cve.org"
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2026-31431"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Careful Adoption of Agentic AI Services",
-    "link": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
-    "published": "Fri, 01 May 26 12:00:00 +0000",
-    "domains": [
-      "cisasurvey.gov1.qualtrics.com"
-    ],
-    "urls": [
-      "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_9n4TtB8uttUPaM6?product=https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB Ability OPTIMAX",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "search.abb.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/303.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-120-04.json",
-      "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A1331&amp",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-14510",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB AWIN Gateways",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "search.abb.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/294.html",
-      "https://cwe.mitre.org/data/definitions/306.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-120-05_modified_for_Drupal%201.json",
-      "https://search.abb.com/library/Download.aspx?DocumentID=4JNO000329&amp",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-13777",
-      "https://www.cve.org/CVERecord?id=CVE-2025-13778",
-      "https://www.cve.org/CVERecord?id=CVE-2025-13779",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB Ability Symphony Plus Engineering",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/190.html",
-      "https://cwe.mitre.org/data/definitions/271.html",
-      "https://cwe.mitre.org/data/definitions/367.html",
-      "https://cwe.mitre.org/data/definitions/89.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-120-06.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2023-39417",
-      "https://www.cve.org/CVERecord?id=CVE-2023-5869",
-      "https://www.cve.org/CVERecord?id=CVE-2024-0985",
-      "https://www.cve.org/CVERecord?id=CVE-2024-7348",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "search.abb.com",
-      "sharpzip.dll",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/22.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-120-02.json",
-      "https://search.abb.com/library/Download.aspx?DocumentID=2NGA002813&amp",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2018-1002208",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2026-41940"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB System 800xA, Symphony Plus IEC 61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/1284.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-120-01%201.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-3756",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB Edgenius Management Portal",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
-    "published": "Thu, 30 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "search.abb.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/288.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-120-03.json",
-      "https://search.abb.com/library/Download.aspx?DocumentID=7PAA022088&amp",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-10571",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Adapting Zero Trust Principles to Operational Technology",
-    "link": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
-    "published": "Wed, 29 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisasurvey.gov1.qualtrics.com",
-      "www.cisa.gov"
-    ],
-    "urls": [
-      "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_9n4TtB8uttUPaM6?product=https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
-      "https://www.cisa.gov/sites/default/files/2026-04/joint-guide-adapting-zero-trust-principles-to-operational-technology_508c.pdf",
-      "https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "published": "Tue, 28 Apr 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cve.org/CVERecord?id=CVE-2024-1708",
-      "https://www.cve.org/CVERecord?id=CVE-2026-32202"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "NSA GRASSMARLIN",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
-    "published": "Tue, 28 Apr 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/611.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-118-01.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-6807",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "published": "Fri, 24 Apr 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cve.org/CVERecord?id=CVE-2024-57726",
-      "https://www.cve.org/CVERecord?id=CVE-2024-57728",
-      "https://www.cve.org/CVERecord?id=CVE-2024-7399",
-      "https://www.cve.org/CVERecord?id=CVE-2025-29635"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
-    "published": "Thu, 23 Apr 26 12:00:00 +0000",
-    "domains": [
-      "attack.mitre.org",
-      "cloud.google.com",
-      "cybertoolkit.service.ncsc.gov.uk",
-      "ncsc.gov.uk",
-      "urldefense.us",
-      "www.justice.gov",
-      "www.ncsc.gov.uk"
-    ],
-    "urls": [
-      "https://attack.mitre.org/versions/v18/techniques/T1090/003/",
-      "https://attack.mitre.org/versions/v18/techniques/T1583/003/",
-      "https://attack.mitre.org/versions/v18/techniques/T1584/005/",
-      "https://attack.mitre.org/versions/v18/techniques/T1584/008/",
-      "https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks",
-      "https://cybertoolkit.service.ncsc.gov.uk/",
-      "https://urldefense.us/v3/__https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices__",
-      "https://urldefense.us/v3/__https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices__",
-      "https://www.justice.gov/archives/opa/pr/court-authorized-operation-disrupts-worldwide-botnet-used-peoples-republic-china-state",
-      "https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical",
-      "https://www.ncsc.gov.uk/collection/cyber-assessment-framework",
-      "https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software",
-      "https://www.ncsc.gov.uk/cyberessentials/overview",
-      "https://www.ncsc.gov.uk/guidance/10-steps-network-security",
-      "https://www.ncsc.gov.uk/guidance/assessing-supply-chain-security",
-      "https://www.ncsc.gov.uk/guidance/introduction-logging-security-purposes",
-      "https://www.ncsc.gov.uk/guidance/preventing-lateral-movement",
-      "https://www.ncsc.gov.uk/information/cyber-league",
-      "https://www.ncsc.gov.uk/information/logging-made-easy",
-      "https://www.ncsc.gov.uk/news/ncsc-and-partners-issue-advice-to-counter-china-linked-campaign-targeting-thousands-of-devices",
-      "https://www.ncsc.gov.uk/news/ncsc-and-partners-issue-warning-about-state-sponsored-cyber-attackers-hiding-on-critical-infrastructure-networks",
-      "https://www.ncsc.gov.uk/section/products-services/assured-services"
+      "https://www.cve.org/CVERecord?id=CVE-2026-20182"
     ],
     "blocking_policy": "context_only"
   },
@@ -718,6 +1128,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-31431"
     ],
@@ -787,6 +1199,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-39987"
     ],
@@ -803,6 +1217,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33825"
     ],
@@ -866,6 +1282,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-34197"
     ],
@@ -882,6 +1300,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2009-0238",
       "https://www.cve.org/CVERecord?id=CVE-2026-32201"
@@ -899,6 +1319,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2012-1854",
       "https://www.cve.org/CVERecord?id=CVE-2020-9715",
@@ -921,6 +1343,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-1340"
     ],
@@ -937,6 +1361,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-35616"
     ],
@@ -968,6 +1394,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-5281"
     ],
@@ -984,6 +1412,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-3055"
     ],
@@ -1000,6 +1430,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2025-53521"
     ],
@@ -1016,6 +1448,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33634"
     ],
@@ -1032,6 +1466,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33017"
     ],
@@ -1048,6 +1484,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2025-31277",
       "https://www.cve.org/CVERecord?id=CVE-2025-32432",
@@ -1108,6 +1546,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2025-66376"
     ],
@@ -1124,6 +1564,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-20963"
     ],
@@ -1158,27 +1600,11 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2026-3909",
-      "https://www.cve.org/CVERecord?id=CVE-2026-3910"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "published": "Wed, 11 Mar 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
       "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2025-68613"
+      "https://www.cve.org/CVERecord?id=CVE-2026-3909",
+      "https://www.cve.org/CVERecord?id=CVE-2026-3910"
     ],
     "blocking_policy": "context_only"
   },
@@ -1193,6 +1619,7 @@
       "cybertoolkit.service.ncsc.gov.uk",
       "ncsc.gov.uk",
       "urldefense.us",
+      "www.cisa.gov",
       "www.justice.gov",
       "www.ncsc.gov.uk"
     ],
@@ -1205,6 +1632,7 @@
       "https://cybertoolkit.service.ncsc.gov.uk/",
       "https://urldefense.us/v3/__https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices__",
       "https://urldefense.us/v3/__https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices__",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj",
       "https://www.justice.gov/archives/opa/pr/court-authorized-operation-disrupts-worldwide-botnet-used-peoples-republic-china-state",
       "https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical",
       "https://www.ncsc.gov.uk/collection/cyber-assessment-framework",
@@ -1228,7 +1656,6 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
     "published": "Mon, 06 Apr 2026 07:03:58 EDT",
     "domains": [
-      "508c.pdf",
       "aa26-097a.stix",
       "attack.mitre.org",
       "cisa.dhs.gov",
@@ -1267,6 +1694,7 @@
       "https://www.cisa.gov/resources-tools/resources/bulletproof-defense-mitigating-risks-bulletproof-hosting-providers",
       "https://www.cisa.gov/resources-tools/resources/secure-demand-priority-considerations-operational-technology-owners-and-operators-when-selecting",
       "https://www.cisa.gov/securebydesign",
+      "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A-Iranian-Affiliated-Cyber-Actors-Exploit-Programmable-Logic-Controllers-Across-US-Critical-Infrastructure_508c.pdf",
       "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A.stix_.json",
       "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A.stix_.xml",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/energy-sector",
@@ -1291,7 +1719,6 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a",
     "published": "Fri, 05 Dec 2025 14:35:38 EST",
     "domains": [
-      "0.pdf",
       "attack.mitre.org",
       "cisa.dhs.gov",
       "cyber.gc.ca",
@@ -1347,6 +1774,7 @@
       "https://www.cisa.gov/resources-tools/resources/top-cyber-actions-securing-water-systems",
       "https://www.cisa.gov/sbom",
       "https://www.cisa.gov/securebydesign",
+      "https://www.cisa.gov/sites/default/files/2025-12/aa25-343a-pro-russia-hacktivists-conduct-attacks_0.pdf",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/energy-sector",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/food-and-agriculture-sector",
       "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/water-and-wastewater-sector",
@@ -1368,7 +1796,6 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a",
     "published": "Mon, 22 Sep 2025 11:12:49 EDT",
     "domains": [
-      "20activity.jpg",
       "aa.sh",
       "aa25-266a-json.stix",
       "aa25-266a-stix.stix",
@@ -1444,6 +1871,7 @@
       "https://www.cisa.gov/sites/default/files/2025-09/AA25-266A-JSON.stix_.json",
       "https://www.cisa.gov/sites/default/files/2025-09/AA25-266A-STIX.stix_.xml",
       "https://www.cisa.gov/sites/default/files/2025-09/AA25-266A_advisory_cisa_shares_lessons_learned_from_ir_engagement.pdf",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-09/Overview%20of%20Threat%20Actor%20Activity.jpg?itok=uRWN4aW3",
       "https://www.cve.org/CVERecord?id=CVE-2016-5195",
       "https://www.cve.org/CVERecord?id=CVE-2024-36401"
     ],
@@ -1466,10 +1894,8 @@
       "map.tcl",
       "media.defense.gov",
       "mycap.pcap",
-      "networks.pdf",
       "sec.cloudapps.cisco.com",
       "siet.py",
-      "system.stix",
       "tac.pcap",
       "tclproxy.tcl",
       "www.cisa.gov",
@@ -1542,7 +1968,12 @@
       "https://sec.cloudapps.cisco.com/security/center/resources/securing_nx_os.html",
       "https://sec.cloudapps.cisco.com/security/center/softwarechecker.x",
       "https://sec.cloudapps.cisco.com/security/center/tacticalresources.x",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
+      "https://www.cisa.gov/sites/default/files/2025-09/AA25-239A_Countering_Chinese_State-Sponsored_Actors_Compromise_of_Networks_Worldwide_to_Feed_Global_Espionage_System.stix_.json",
+      "https://www.cisa.gov/sites/default/files/2025-09/AA25-239A_Countering_Chinese_State-Sponsored_Actors_Compromise_of_Networks_Worldwide_to_Feed_Global_Espionage_System.stix_.xml",
+      "https://www.cisa.gov/sites/default/files/2025-09/CSA_COUNTERING_CHINA_STATE_ACTORS_COMPROMISE_OF_NETWORKS.pdf",
+      "https://www.cisa.gov/topics/cyber-threats-and-advisories/nation-state-cyber-actors/china",
       "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-16/220270-use-cisco-ios-xe-hardening-guide.html",
       "https://www.cisco.com/c/en/us/support/docs/ip/access-lists/13608-21.html",
       "https://www.cnss.gov/CNSS/issuances/Policies.cfm",
@@ -1620,6 +2051,7 @@
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-212a",
       "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection",
       "https://www.cisa.gov/resources-tools/resources/principles-operational-technology-cyber-security",
+      "https://www.cisa.gov/sites/default/files/2025-08/joint-advisory-cisa-identifies-areas-for-cyber-hygiene-improvement-after-conducting-proactive-threat-hunt-508c.pdf",
       "https://www.cisecurity.org/cis-benchmarks",
       "https://www.cyber.gov.au/sites/default/files/2024-08/best-practices-for-event-logging-and-threat-detection.pdf",
       "https://www.fbi.gov/contact-us/field-offices",
@@ -1637,9 +2069,6 @@
     "published": "Mon, 21 Jul 2025 10:11:24 EDT",
     "domains": [
       "2327991.exe",
-      "aa25-203a-interlock-stix.json",
-      "aa25-203a-interlock-stix.xml",
-      "aa25-203a-stopransomware-interlock-072225.pdf",
       "aisa.exe",
       "antimalware.exe",
       "anyconnectvpn.exe",
@@ -1733,8 +2162,15 @@
       "https://myservices.cisa.gov/irf",
       "https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-deploys-new-nodesnake-rat-on-universities/",
       "https://www.bleepingcomputer.com/news/security/meet-interlock-the-new-ransomware-targeting-freebsd-servers/",
+      "https://www.cisa.gov/cross-sector-cybersecurity-performance-goals",
+      "https://www.cisa.gov/cyber-hygiene-services",
       "https://www.cisa.gov/cybersecurity-performance-goals-cpgs",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a",
+      "https://www.cisa.gov/resources-tools/resources/stopransomware-guide",
+      "https://www.cisa.gov/sites/default/files/2025-07/AA25-203A-interlock-stix.json",
+      "https://www.cisa.gov/sites/default/files/2025-07/AA25-203A-interlock-stix.xml",
+      "https://www.cisa.gov/sites/default/files/2025-07/aa25-203a-stopransomware-interlock-072225.pdf",
+      "https://www.cisa.gov/stopransomware",
       "https://www.fbi.gov/contact-us/field-offices",
       "https://www.ic3.gov/Home/ComplaintChoice",
       "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clickfix-deception-a-social-engineering-tactic-to-deploy-malware/"
@@ -1747,7 +2183,6 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a",
     "published": "Thu, 12 Jun 2025 10:29:54 EDT",
     "domains": [
-      "aa25-163a-ransomware-simplehelp-rmm-compromise.pdf",
       "aaa.exe",
       "bbb.exe",
       "cisa.gov",
@@ -1771,6 +2206,7 @@
       "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a",
       "https://www.cisa.gov/sbom",
+      "https://www.cisa.gov/sites/default/files/2025-06/aa25-163a-ransomware-simplehelp-rmm-compromise.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2024-57727",
       "https://www.fbi.gov/contact-us/field-offices",
       "https://www.ic3.gov/",
@@ -1786,7 +2222,6 @@
     "domains": [
       "000.pe",
       "1cooldns.com",
-      "20entities.png",
       "42web.io",
       "4cloud.click",
       "4ginfosource.com",
@@ -1967,6 +2402,7 @@
       "https://www.cisa.gov/resources-tools/resources/identifying-and-mitigating-living-land-techniques",
       "https://www.cisa.gov/sites/default/files/AA25-141A_Russian_GRU_Targeting_Western_Logistics_Entities_and_Technology_Companies.stix.json",
       "https://www.cisa.gov/sites/default/files/AA25-141A_Russian_GRU_Targeting_Western_Logistics_Entities_and_Technology_Companies.stix.xml",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Countries%20with%20Targeted%20Entities.png?itok=UKD_QLvF",
       "https://www.cyber.gov.au/"
     ],
     "blocking_policy": "context_only"
@@ -1977,15 +2413,6 @@
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b",
     "published": "Tue, 20 May 2025 15:20:23 EDT",
     "domains": [
-      "20box.png",
-      "20check.png",
-      "20line.png",
-      "20memory.png",
-      "20request.png",
-      "20routine.png",
-      "20strings.png",
-      "20value.png",
-      "aa25-141b.stix",
       "advennture.top",
       "attack.mitre.org",
       "authorizev.site",
@@ -2128,8 +2555,31 @@
       "https://attack.mitre.org/versions/v17/techniques/T1566/002/",
       "https://www.cisa.gov/cross-sector-cybersecurity-performance-goals",
       "https://www.cisa.gov/cybersecurity-performance-goals-cpgs",
+      "https://www.cisa.gov/sites/default/files/2025-05/AA25-141B-Threat-Actors-Deploy-LummaC2-Malware-to-Exfiltrate-Sensitive-Data-from-Organizations.stix_.json",
+      "https://www.cisa.gov/sites/default/files/2025-05/AA25-141B.stix_.xml",
+      "https://www.cisa.gov/sites/default/files/2025-05/aa25-141b-threat-actors-deploy-lummac2-malware-to-exfiltrate-sensitive-data-from-organizations.pdf",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%201%20-%20LummaC2%20Main%20Routine.png?itok=4-3q4JJo",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%2010%20-%20Decoded%20Command%20Line%20in%20Memory.png?itok=QsVu940K",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%2011%20-%20Decoded%20Strings.png?itok=4A8LZC0N",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%202%20-%20Message%20Box.png?itok=ORRAaghu",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%203%20-%20Post%20Request.png?itok=nPWt04-t",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%204%20-%20Code%20Saving%20Successful%20Callback%20Request.png?itok=txJPFJab",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%205%20-%20User%20and%20Computer%20Name%20Check.png?itok=ZYtbs3GM",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%206%20-%20Second%20POST%20Request.png?itok=4cdoQzJY",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%207%20-%20Parsing%20of%20ex%20JSON%20Value.png?itok=rotohQzR",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%208%20-%20Parsing%20of%20c%20JSON%20Value.png?itok=CH958VKZ",
+      "https://www.cisa.gov/sites/default/files/styles/large/public/2025-05/Figure%209%20-%20Self-Deletion%20Command%20Line.png?itok=BqtyYanh",
       "https://www.fbi.gov/contact-us/field-offices"
     ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-20182 Cisco Catalyst SD-WAN Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-05-14",
+    "domains": [],
+    "urls": [],
     "blocking_policy": "context_only"
   },
   {
@@ -2567,15 +3017,6 @@
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-3910 Google Chromium V8 Google Chromium V8 Improper Restriction of Operations Within the Bounds of a Memory Buffer Vulnerability Google Chromium V8 contains an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-03-13",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-3909 Google Skia Google Skia Out-of-Bounds Write Vulnerability Google Skia contains an out-of-bounds write vulnerability that could allow a remote attacker to perform out of bounds memory access via a crafted HTML page. This vulnerability affects Google Chrome and ChromeOS, Android, Flutter, and possibly other products.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-03-13",
     "domains": [],
