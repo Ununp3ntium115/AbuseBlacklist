@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-17T04:41:09.077377+00:00",
+  "generated_at_utc": "2026-05-18T04:47:29.840806+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 128900,
+      "ipv4": 128635,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -711,7 +711,7 @@
       "url": "https://www.spamhaus.org/drop/drop.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1644,
+      "ipv4": 1643,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -747,7 +747,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 0,
-      "domains": 8,
+      "domains": 9,
       "urls": 0
     },
     {
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 24572,
-      "ipv6": 68,
+      "ipv4": 23793,
+      "ipv6": 89,
       "domains": 0,
       "urls": 0
     },
@@ -796,7 +796,7 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 5112,
+      "ipv4": 5418,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -813,8 +813,8 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 13111,
-      "ipv6": 12,
+      "ipv4": 12482,
+      "ipv6": 10,
       "domains": 0,
       "urls": 0
     },
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 11846,
-      "ipv6": 43,
+      "ipv4": 11167,
+      "ipv6": 68,
       "domains": 0,
       "urls": 0
     },
@@ -847,7 +847,7 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1751,
+      "ipv4": 1969,
       "ipv6": 8,
       "domains": 0,
       "urls": 0
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 3664,
-      "ipv6": 42,
+      "ipv4": 2977,
+      "ipv6": 67,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 554,
+      "domains": 561,
       "urls": 0
     },
     {
@@ -916,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 568,
-      "urls": 12220
+      "domains": 557,
+      "urls": 12247
     },
     {
       "name": "abuse.ch URLhaus",
@@ -933,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 585,
-      "urls": 24440
+      "domains": 574,
+      "urls": 24500
     },
     {
       "name": "EasyPrivacy",
@@ -950,7 +950,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 1,
-      "domains": 55192,
+      "domains": 55193,
       "urls": 6
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 72,
       "ipv6": 0,
-      "domains": 164875,
+      "domains": 165061,
       "urls": 0
     },
     {
@@ -1081,18 +1081,18 @@
   "stats": {
     "country_ipv4_raw": 18309,
     "country_ipv6_raw": 5716,
-    "threat_ipv4_raw": 130903,
-    "threat_ipv6_raw": 163,
-    "threat_domains_raw": 750,
-    "threat_urls_raw": 24440,
-    "privacy_domains_raw": 266762,
-    "dns_blocklist_raw": 267144,
-    "scored_indicators": 180208,
-    "privacy_indicators_unscored": 266497,
-    "high_confidence_indicators": 155836,
+    "threat_ipv4_raw": 130974,
+    "threat_ipv6_raw": 184,
+    "threat_domains_raw": 760,
+    "threat_urls_raw": 24500,
+    "privacy_domains_raw": 266949,
+    "dns_blocklist_raw": 267363,
+    "scored_indicators": 180370,
+    "privacy_indicators_unscored": 266706,
+    "high_confidence_indicators": 155642,
     "advisory_context_items": 120,
-    "combined_ipv4_collapsed": 97357,
-    "combined_ipv6_collapsed": 5860,
+    "combined_ipv4_collapsed": 97977,
+    "combined_ipv6_collapsed": 5880,
     "sources_total": 64,
     "sources_ok": 64,
     "sources_failed": 0
