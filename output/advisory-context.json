@@ -1,6 +1,23 @@
 [
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "published": "Wed, 27 May 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cve.org/CVERecord?id=CVE-2026-45321",
+      "https://www.cve.org/CVERecord?id=CVE-2026-48027",
+      "https://www.cve.org/CVERecord?id=CVE-2026-8398"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "Eppendorf BioFlo 320",
     "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
     "published": "Tue, 26 May 26 12:00:00 +0000",
@@ -221,24 +238,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "published": "Thu, 21 May 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2025-34291",
-      "https://www.cve.org/CVERecord?id=CVE-2026-34926"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "ABB B&R Automation Runtime",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
     "published": "Thu, 21 May 26 12:00:00 +0000",
@@ -260,6 +259,24 @@
       "https://www.cve.org/CVERecord?id=CVE-2025-3448",
       "https://www.cve.org/CVERecord?id=CVE-2025-3449",
       "https://www.first.org/cvss/calculator/3.1"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published": "Thu, 21 May 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
+      "https://www.cve.org/CVERecord?id=CVE-2025-34291",
+      "https://www.cve.org/CVERecord?id=CVE-2026-34926"
     ],
     "blocking_policy": "context_only"
   },
@@ -603,6 +620,36 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Siemens SIMATIC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-07",
+    "published": "Thu, 14 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "support.industry.siemens.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.siemens.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/1188.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json",
+      "https://support.industry.siemens.com/cs/ww/en/view/109481300",
+      "https://support.industry.siemens.com/cs/ww/en/view/109825605/",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-27662",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.siemens.com/cert/advisories",
+      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
+      "https://www.siemens.com/industrialsecurity",
+      "https://www.siemens.com/productcert/terms-of-use"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "Siemens Solid Edge",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
     "published": "Thu, 14 May 26 12:00:00 +0000",
@@ -634,35 +681,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Siemens SENTRON 7KT PAC1261 Data Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-14",
-    "published": "Thu, 14 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "support.industry.siemens.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org",
-      "www.siemens.com"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/444.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-14.json",
-      "https://support.industry.siemens.com/cs/ww/en/view/109977717/",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-22871",
-      "https://www.first.org/cvss/calculator/3.1",
-      "https://www.siemens.com/cert/advisories",
-      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
-      "https://www.siemens.com/industrialsecurity",
-      "https://www.siemens.com/productcert/terms-of-use"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "Siemens Simcenter Femap",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
     "published": "Thu, 14 May 26 12:00:00 +0000",
@@ -682,36 +700,6 @@
       "https://support.sw.siemens.com/product/275652363/",
       "https://www.cisa.gov/notification",
       "https://www.cve.org/CVERecord?id=CVE-2025-12659",
-      "https://www.first.org/cvss/calculator/3.1",
-      "https://www.siemens.com/cert/advisories",
-      "https://www.siemens.com/cert/operational-guidelines-industrial-security",
-      "https://www.siemens.com/industrialsecurity",
-      "https://www.siemens.com/productcert/terms-of-use"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Siemens SIMATIC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-07",
-    "published": "Thu, 14 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "support.industry.siemens.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org",
-      "www.siemens.com"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/1188.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json",
-      "https://support.industry.siemens.com/cs/ww/en/view/109481300",
-      "https://support.industry.siemens.com/cs/ww/en/view/109825605/",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-27662",
       "https://www.first.org/cvss/calculator/3.1",
       "https://www.siemens.com/cert/advisories",
       "https://www.siemens.com/cert/operational-guidelines-industrial-security",
@@ -1036,6 +1024,23 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "published": "Wed, 27 May 26 12:00:00 +0000",
+    "domains": [
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cve.org/CVERecord?id=CVE-2026-45321",
+      "https://www.cve.org/CVERecord?id=CVE-2026-48027",
+      "https://www.cve.org/CVERecord?id=CVE-2026-8398"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Tue, 26 May 26 12:00:00 +0000",
@@ -1297,28 +1302,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "\u200b\u200bSupply Chain Compromise Impacts Axios Node Package Manager\u200b",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-    "published": "Mon, 20 Apr 26 12:00:00 +0000",
-    "domains": [
-      "docs.npmjs.com",
-      "github.com",
-      "sfrclak.com",
-      "socket.dev",
-      "www.microsoft.com",
-      "www.stepsecurity.io"
-    ],
-    "urls": [
-      "https://docs.npmjs.com/packages-and-modules/securing-your-code",
-      "https://github.com/axios/axios/issues/10636",
-      "https://socket.dev/blog/axios-npm-package-compromised",
-      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
-      "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
     "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
     "published": "Mon, 20 Apr 26 12:00:00 +0000",
@@ -1339,6 +1322,28 @@
       "https://www.cve.org/CVERecord?id=CVE-2026-20122",
       "https://www.cve.org/CVERecord?id=CVE-2026-20128",
       "https://www.cve.org/CVERecord?id=CVE-2026-20133"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "\u200b\u200bSupply Chain Compromise Impacts Axios Node Package Manager\u200b",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+    "published": "Mon, 20 Apr 26 12:00:00 +0000",
+    "domains": [
+      "docs.npmjs.com",
+      "github.com",
+      "sfrclak.com",
+      "socket.dev",
+      "www.microsoft.com",
+      "www.stepsecurity.io"
+    ],
+    "urls": [
+      "https://docs.npmjs.com/packages-and-modules/securing-your-code",
+      "https://github.com/axios/axios/issues/10636",
+      "https://socket.dev/blog/axios-npm-package-compromised",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
     ],
     "blocking_policy": "context_only"
   },
@@ -1563,24 +1568,6 @@
       "https://www.cve.org/CVERecord?id=CVE-2025-43510",
       "https://www.cve.org/CVERecord?id=CVE-2025-43520",
       "https://www.cve.org/CVERecord?id=CVE-2025-54068"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "published": "Thu, 19 Mar 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2026-20131"
     ],
     "blocking_policy": "context_only"
   },
@@ -2551,6 +2538,33 @@
   },
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-48027 Nx Nx Console Nx Console Embedded Malicious Code Vulnerability Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-05-27",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-45321 TanStack TanStack TanStack Unspecified Vulnerability TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-05-27",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-8398 Daemon Daemon Tools Lite Daemon Tools Lite Embedded Malicious Code Vulnerability Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-05-27",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-48172 LiteSpeed cPanel Plugin LiteSpeed cPanel Plugin Privilege Escalation Vulnerability LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-05-26",
@@ -2970,33 +2984,6 @@
     "title": "CVE-2026-3502 TrueConf Client TrueConf Client Download of Code Without Integrity Check Vulnerability TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the updater, this may result in arbitrary code execution in the context of the updating process or user.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-04-02",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-5281 Google Dawn Google Dawn Use-After-Free Vulnerability Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based products including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-01",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-3055 Citrix NetScaler Citrix NetScaler Out-of-Bounds Read Vulnerability Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-03-30",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2025-53521 F5 BIG-IP F5 BIG-IP Stack-Based Buffer Overflow Vulnerability F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-03-27",
     "domains": [],
     "urls": [],
     "blocking_policy": "context_only"
