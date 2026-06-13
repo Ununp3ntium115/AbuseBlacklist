@@ -1,6 +1,26 @@
 [
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published": "Fri, 12 Jun 26 12:00:00 +0000",
+    "domains": [
+      "cisasurvey.gov1.qualtrics.com",
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
+      "https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities-revoked",
+      "https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk",
+      "https://www.cve.org/CVERecord?id=CVE-2026-35273"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "Yarbo Android/iOS Mobile Application and Cloud Infrastructure",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01",
     "published": "Thu, 11 Jun 26 12:00:00 +0000",
@@ -256,32 +276,6 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Hitachi Energy ITT600 Explorer",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
-    "published": "Thu, 04 Jun 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org",
-      "www.hitachienergy.com"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/674.html",
-      "https://cwe.mitre.org/data/definitions/770.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-02.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2024-8176",
-      "https://www.cve.org/CVERecord?id=CVE-2025-59375",
-      "https://www.first.org/cvss/calculator/3.1",
-      "https://www.hitachienergy.com/contact-us/"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "NAVTOR NavBox",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01",
     "published": "Thu, 04 Jun 26 12:00:00 +0000",
@@ -385,6 +379,32 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Hitachi Energy ITT600 Explorer",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
+    "published": "Thu, 04 Jun 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org",
+      "www.hitachienergy.com"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/674.html",
+      "https://cwe.mitre.org/data/definitions/770.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-02.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2024-8176",
+      "https://www.cve.org/CVERecord?id=CVE-2025-59375",
+      "https://www.first.org/cvss/calculator/3.1",
+      "https://www.hitachienergy.com/contact-us/"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Wed, 03 Jun 26 12:00:00 +0000",
@@ -481,6 +501,28 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
+    "published": "Thu, 28 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/798.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-02.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2026-7786",
+      "https://www.first.org/cvss/calculator/3.1"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "MacGregor Voyage Data Recorder (VDR) G4e",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
     "published": "Thu, 28 May 26 12:00:00 +0000",
@@ -566,6 +608,28 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
+    "published": "Thu, 28 May 26 12:00:00 +0000",
+    "domains": [
+      "cisa.gov",
+      "cwe.mitre.org",
+      "github.com",
+      "www.cisa.gov",
+      "www.cve.org",
+      "www.first.org"
+    ],
+    "urls": [
+      "https://cwe.mitre.org/data/definitions/489.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-04.json",
+      "https://www.cisa.gov/notification",
+      "https://www.cve.org/CVERecord?id=CVE-2025-7705",
+      "https://www.first.org/cvss/calculator/3.1"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
     "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
     "published": "Thu, 28 May 26 12:00:00 +0000",
@@ -610,44 +674,25 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
+    "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
     "published": "Thu, 28 May 26 12:00:00 +0000",
     "domains": [
       "cisa.gov",
       "cwe.mitre.org",
+      "fourthfrontier.com",
       "github.com",
       "www.cisa.gov",
       "www.cve.org",
       "www.first.org"
     ],
     "urls": [
-      "https://cwe.mitre.org/data/definitions/798.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-02.json",
+      "https://cwe.mitre.org/data/definitions/306.html",
+      "https://fourthfrontier.com/pages/contact-us",
+      "https://fourthfrontier.com/pages/contact-usl",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-148-01.json",
       "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-7786",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
-    "published": "Thu, 28 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/489.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-04.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2025-7705",
+      "https://www.cve.org/CVERecord?id=CVE-2026-5768",
       "https://www.first.org/cvss/calculator/3.1"
     ],
     "blocking_policy": "context_only"
@@ -681,49 +726,22 @@
     "blocking_policy": "context_only"
   },
   {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "ABB EIBPORT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
-    "published": "Thu, 28 May 26 12:00:00 +0000",
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published": "Fri, 12 Jun 26 12:00:00 +0000",
     "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
+      "cisasurvey.gov1.qualtrics.com",
       "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
+      "www.cve.org"
     ],
     "urls": [
-      "https://cwe.mitre.org/data/definitions/79.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-03.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2021-22291",
-      "https://www.first.org/cvss/calculator/3.1"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
-    "published": "Thu, 28 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "fourthfrontier.com",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/306.html",
-      "https://fourthfrontier.com/pages/contact-us",
-      "https://fourthfrontier.com/pages/contact-usl",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-148-01.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-5768",
-      "https://www.first.org/cvss/calculator/3.1"
+      "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
+      "https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities-revoked",
+      "https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk",
+      "https://www.cve.org/CVERecord?id=CVE-2026-35273"
     ],
     "blocking_policy": "context_only"
   },
@@ -1229,28 +1247,6 @@
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2009-0238",
       "https://www.cve.org/CVERecord?id=CVE-2026-32201"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-    "published": "Mon, 13 Apr 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2012-1854",
-      "https://www.cve.org/CVERecord?id=CVE-2020-9715",
-      "https://www.cve.org/CVERecord?id=CVE-2023-21529",
-      "https://www.cve.org/CVERecord?id=CVE-2023-36424",
-      "https://www.cve.org/CVERecord?id=CVE-2025-60710",
-      "https://www.cve.org/CVERecord?id=CVE-2026-21643",
-      "https://www.cve.org/CVERecord?id=CVE-2026-34621"
     ],
     "blocking_policy": "context_only"
   },
@@ -2221,6 +2217,15 @@
   },
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-35273 Oracle  PeopleSoft Enterprise PeopleTools Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-12",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-10520 Ivanti Sentry Ivanti Sentry OS Command Injection Vulnerability Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-06-11",
@@ -2658,15 +2663,6 @@
     "title": "CVE-2024-27199 JetBrains TeamCity JetBrains TeamCity Relative Path Traversal Vulnerability JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-04-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-34197 Apache ActiveMQ Apache ActiveMQ Improper Input Validation Vulnerability Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-16",
     "domains": [],
     "urls": [],
     "blocking_policy": "context_only"
