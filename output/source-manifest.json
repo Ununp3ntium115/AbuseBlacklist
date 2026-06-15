@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-14T04:57:14.129506+00:00",
+  "generated_at_utc": "2026-06-15T04:57:49.615274+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 130860,
+      "ipv4": 139785,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -747,7 +747,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 0,
-      "domains": 10,
+      "domains": 7,
       "urls": 0
     },
     {
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 21392,
-      "ipv6": 72,
+      "ipv4": 22812,
+      "ipv6": 140,
       "domains": 0,
       "urls": 0
     },
@@ -796,8 +796,8 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 5729,
-      "ipv6": 0,
+      "ipv4": 5518,
+      "ipv6": 1,
       "domains": 0,
       "urls": 0
     },
@@ -813,8 +813,8 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 12692,
-      "ipv6": 11,
+      "ipv4": 12865,
+      "ipv6": 26,
       "domains": 0,
       "urls": 0
     },
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 8991,
-      "ipv6": 46,
+      "ipv4": 9165,
+      "ipv6": 98,
       "domains": 0,
       "urls": 0
     },
@@ -847,7 +847,7 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1455,
+      "ipv4": 2680,
       "ipv6": 15,
       "domains": 0,
       "urls": 0
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 814,
-      "ipv6": 45,
+      "ipv4": 885,
+      "ipv6": 98,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 561,
+      "domains": 555,
       "urls": 0
     },
     {
@@ -916,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 536,
-      "urls": 11122
+      "domains": 547,
+      "urls": 11155
     },
     {
       "name": "abuse.ch URLhaus",
@@ -933,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 552,
-      "urls": 22244
+      "domains": 562,
+      "urls": 22308
     },
     {
       "name": "EasyPrivacy",
@@ -948,9 +948,9 @@
       "url": "https://easylist.to/easylist/easyprivacy.txt",
       "category": "privacy_domain",
       "ok": true,
-      "ipv4": 20,
+      "ipv4": 16,
       "ipv6": 1,
-      "domains": 55048,
+      "domains": 55018,
       "urls": 6
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 73,
       "ipv6": 0,
-      "domains": 158290,
+      "domains": 158613,
       "urls": 0
     },
     {
@@ -1081,18 +1081,18 @@
   "stats": {
     "country_ipv4_raw": 18329,
     "country_ipv6_raw": 5725,
-    "threat_ipv4_raw": 132724,
-    "threat_ipv6_raw": 166,
-    "threat_domains_raw": 765,
-    "threat_urls_raw": 22244,
-    "privacy_domains_raw": 262962,
-    "dns_blocklist_raw": 263383,
-    "scored_indicators": 179877,
-    "privacy_indicators_unscored": 262722,
-    "high_confidence_indicators": 155669,
+    "threat_ipv4_raw": 142094,
+    "threat_ipv6_raw": 234,
+    "threat_domains_raw": 763,
+    "threat_urls_raw": 22310,
+    "privacy_domains_raw": 263281,
+    "dns_blocklist_raw": 263698,
+    "scored_indicators": 189379,
+    "privacy_indicators_unscored": 263036,
+    "high_confidence_indicators": 164658,
     "advisory_context_items": 120,
-    "combined_ipv4_collapsed": 101945,
-    "combined_ipv6_collapsed": 5871,
+    "combined_ipv4_collapsed": 107229,
+    "combined_ipv6_collapsed": 5939,
     "sources_total": 64,
     "sources_ok": 64,
     "sources_failed": 0
