@@ -1,6 +1,27 @@
 [
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published": "Mon, 15 Jun 26 12:00:00 +0000",
+    "domains": [
+      "cisasurvey.gov1.qualtrics.com",
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w",
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk",
+      "https://www.cve.org/CVERecord?id=CVE-2026-20262",
+      "https://www.cve.org/CVERecord?id=CVE-2026-54420"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
     "published": "Fri, 12 Jun 26 12:00:00 +0000",
@@ -436,15 +457,8 @@
     "urls": [
       "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_9n4TtB8uttUPaM6?product=https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems",
       "https://www.bitsight.com/blog/critical-vulnerabilities-discovered-automated-tank-gauge-systems",
-      "https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0",
-      "https://www.cisa.gov/resources-tools/resources/exposure-reduction",
       "https://www.cisa.gov/sites/default/files/2025-05/fact-sheet-primary-mitigations-to-reduce-cyber-threats-to-operational-technology-508c.pdf",
       "https://www.cisa.gov/sites/default/files/2026-06/fact-sheet-cisa-and-partners-urge-hardening-automatic-tank-gauge-systems_508c.pdf",
-      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/chemical-sector",
-      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/energy-sector",
-      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/food-and-agriculture-sector",
-      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/transportation-systems-sector",
-      "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia/voluntary-cyber-incident-reporting",
       "https://www.ic3.gov/",
       "https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-secure-connectivity-for-operational-technology.pdf"
     ],
@@ -493,31 +507,8 @@
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
-      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-0257"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
-    "published": "Thu, 28 May 26 12:00:00 +0000",
-    "domains": [
-      "cisa.gov",
-      "cwe.mitre.org",
-      "github.com",
-      "www.cisa.gov",
-      "www.cve.org",
-      "www.first.org"
-    ],
-    "urls": [
-      "https://cwe.mitre.org/data/definitions/798.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-02.json",
-      "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-7786",
-      "https://www.first.org/cvss/calculator/3.1"
     ],
     "blocking_policy": "context_only"
   },
@@ -580,8 +571,8 @@
   },
   {
     "source_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-    "title": "XCharge C6",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
+    "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
     "published": "Thu, 28 May 26 12:00:00 +0000",
     "domains": [
       "cisa.gov",
@@ -589,20 +580,14 @@
       "github.com",
       "www.cisa.gov",
       "www.cve.org",
-      "www.first.org",
-      "www.xcharge.com"
+      "www.first.org"
     ],
     "urls": [
-      "https://cwe.mitre.org/data/definitions/1188.html",
-      "https://cwe.mitre.org/data/definitions/121.html",
-      "https://cwe.mitre.org/data/definitions/494.html",
-      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-08.json",
+      "https://cwe.mitre.org/data/definitions/798.html",
+      "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-02.json",
       "https://www.cisa.gov/notification",
-      "https://www.cve.org/CVERecord?id=CVE-2026-9037",
-      "https://www.cve.org/CVERecord?id=CVE-2026-9038",
-      "https://www.cve.org/CVERecord?id=CVE-2026-9039",
-      "https://www.first.org/cvss/calculator/3.1",
-      "https://www.xcharge.com/contact"
+      "https://www.cve.org/CVERecord?id=CVE-2026-7786",
+      "https://www.first.org/cvss/calculator/3.1"
     ],
     "blocking_policy": "context_only"
   },
@@ -722,6 +707,27 @@
       "https://www.se.com/ww/en/download/document/EcoStruxureME_HVAC_1_10_0/&nbsp",
       "https://www.se.com/ww/en/work/solutions/cybersecurity/",
       "https://www.se.com/ww/en/work/support/cybersecurity/overview.jsp"
+    ],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published": "Mon, 15 Jun 26 12:00:00 +0000",
+    "domains": [
+      "cisasurvey.gov1.qualtrics.com",
+      "www.cisa.gov",
+      "www.cve.org"
+    ],
+    "urls": [
+      "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w",
+      "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk",
+      "https://www.cve.org/CVERecord?id=CVE-2026-20262",
+      "https://www.cve.org/CVERecord?id=CVE-2026-54420"
     ],
     "blocking_policy": "context_only"
   },
@@ -1230,23 +1236,6 @@
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-34197"
-    ],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "published": "Tue, 14 Apr 26 12:00:00 +0000",
-    "domains": [
-      "www.cisa.gov",
-      "www.cve.org"
-    ],
-    "urls": [
-      "https://www.cisa.gov/binding-operational-directive-22-01",
-      "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
-      "https://www.cve.org/CVERecord?id=CVE-2009-0238",
-      "https://www.cve.org/CVERecord?id=CVE-2026-32201"
     ],
     "blocking_policy": "context_only"
   },
@@ -2217,6 +2206,24 @@
   },
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-54420 LiteSpeed cPanel Plugin LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-15",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-20262 Cisco Catalyst SD-WAN Manager Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-15",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-35273 Oracle  PeopleSoft Enterprise PeopleTools Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-06-12",
@@ -2643,24 +2650,6 @@
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-20128 Cisco Catalyst SD-WAN Manager Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability Cisco Catalyst SD-WAN Manager contains a storing passwords in a recoverable format vulnerability that allows an authenticated, local attacker to gain DCA user privileges by accessing a credential file for the DCA user on the filesystem as a low-privileged user.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2025-32975 Quest KACE Systems Management Appliance (SMA) Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2024-27199 JetBrains TeamCity JetBrains TeamCity Relative Path Traversal Vulnerability JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-04-20",
     "domains": [],
