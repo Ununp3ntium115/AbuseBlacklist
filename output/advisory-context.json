@@ -625,8 +625,15 @@
     "urls": [
       "https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_9n4TtB8uttUPaM6?product=https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems",
       "https://www.bitsight.com/blog/critical-vulnerabilities-discovered-automated-tank-gauge-systems",
+      "https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0",
+      "https://www.cisa.gov/resources-tools/resources/exposure-reduction",
       "https://www.cisa.gov/sites/default/files/2025-05/fact-sheet-primary-mitigations-to-reduce-cyber-threats-to-operational-technology-508c.pdf",
       "https://www.cisa.gov/sites/default/files/2026-06/fact-sheet-cisa-and-partners-urge-hardening-automatic-tank-gauge-systems_508c.pdf",
+      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/chemical-sector",
+      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/energy-sector",
+      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/food-and-agriculture-sector",
+      "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/transportation-systems-sector",
+      "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia/voluntary-cyber-incident-reporting",
       "https://www.ic3.gov/",
       "https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-secure-connectivity-for-operational-technology.pdf"
     ],
@@ -659,6 +666,7 @@
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-0257"
     ],
@@ -904,6 +912,7 @@
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-0257"
     ],
@@ -972,6 +981,7 @@
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-9082"
     ],
@@ -989,6 +999,7 @@
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
       "https://www.cisa.gov/known-exploited-vulnerabilities",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2025-34291",
       "https://www.cve.org/CVERecord?id=CVE-2026-34926"
@@ -1006,6 +1017,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2008-4250",
       "https://www.cve.org/CVERecord?id=CVE-2009-1537",
@@ -1028,6 +1041,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-42897"
     ],
@@ -1104,6 +1119,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-31431"
     ],
@@ -1173,6 +1190,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-39987"
     ],
@@ -1189,6 +1208,8 @@
     ],
     "urls": [
       "https://www.cisa.gov/binding-operational-directive-22-01",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities",
       "https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf",
       "https://www.cve.org/CVERecord?id=CVE-2026-33825"
     ],
