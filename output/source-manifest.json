@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-18T08:20:34.807109+00:00",
+  "generated_at_utc": "2026-06-19T04:57:50.189157+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -83,7 +83,7 @@
       "cadence": "daily",
       "justification": "Policy geo-block CIDR range for Iran; this is not standalone abuse evidence.",
       "ok": true,
-      "ipv4": 1721,
+      "ipv4": 1722,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -99,7 +99,7 @@
       "cadence": "daily",
       "justification": "Policy geo-block CIDR range for Israel; this is not standalone abuse evidence.",
       "ok": true,
-      "ipv4": 762,
+      "ipv4": 765,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -163,7 +163,7 @@
       "cadence": "daily",
       "justification": "Policy geo-block CIDR range for Myanmar/Burma; this is not standalone abuse evidence.",
       "ok": true,
-      "ipv4": 232,
+      "ipv4": 231,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -195,7 +195,7 @@
       "cadence": "daily",
       "justification": "Policy geo-block CIDR range for Iraq; this is not standalone abuse evidence.",
       "ok": true,
-      "ipv4": 286,
+      "ipv4": 287,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -468,7 +468,7 @@
       "justification": "Policy geo-block CIDR range for Myanmar/Burma; this is not standalone abuse evidence.",
       "ok": true,
       "ipv4": 0,
-      "ipv6": 129,
+      "ipv6": 128,
       "domains": 0,
       "urls": 0
     },
@@ -548,7 +548,7 @@
       "justification": "Policy geo-block CIDR range for Venezuela; this is not standalone abuse evidence.",
       "ok": true,
       "ipv4": 0,
-      "ipv6": 223,
+      "ipv6": 224,
       "domains": 0,
       "urls": 0
     },
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 143770,
+      "ipv4": 139513,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -711,7 +711,7 @@
       "url": "https://www.spamhaus.org/drop/drop.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1708,
+      "ipv4": 1705,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -747,7 +747,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 0,
-      "domains": 8,
+      "domains": 7,
       "urls": 0
     },
     {
@@ -762,7 +762,7 @@
       "url": "https://rules.emergingthreats.net/blockrules/compromised-ips.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 599,
+      "ipv4": 604,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 25028,
-      "ipv6": 150,
+      "ipv4": 23753,
+      "ipv6": 132,
       "domains": 0,
       "urls": 0
     },
@@ -796,8 +796,8 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 5940,
-      "ipv6": 2,
+      "ipv4": 5988,
+      "ipv6": 0,
       "domains": 0,
       "urls": 0
     },
@@ -813,7 +813,7 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 13987,
+      "ipv4": 13694,
       "ipv6": 9,
       "domains": 0,
       "urls": 0
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 9356,
-      "ipv6": 130,
+      "ipv4": 9209,
+      "ipv6": 116,
       "domains": 0,
       "urls": 0
     },
@@ -847,8 +847,8 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 3123,
-      "ipv6": 9,
+      "ipv4": 2306,
+      "ipv6": 7,
       "domains": 0,
       "urls": 0
     },
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1134,
-      "ipv6": 123,
+      "ipv4": 1057,
+      "ipv6": 111,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 571,
+      "domains": 511,
       "urls": 0
     },
     {
@@ -916,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 570,
-      "urls": 10988
+      "domains": 548,
+      "urls": 10400
     },
     {
       "name": "abuse.ch URLhaus",
@@ -933,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 589,
-      "urls": 22252
+      "domains": 564,
+      "urls": 20792
     },
     {
       "name": "EasyPrivacy",
@@ -950,7 +950,7 @@
       "ok": true,
       "ipv4": 16,
       "ipv6": 1,
-      "domains": 55028,
+      "domains": 55030,
       "urls": 6
     },
     {
@@ -967,7 +967,7 @@
       "ok": true,
       "ipv4": 3,
       "ipv6": 6,
-      "domains": 84971,
+      "domains": 83942,
       "urls": 0
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 73,
       "ipv6": 0,
-      "domains": 157173,
+      "domains": 157442,
       "urls": 0
     },
     {
@@ -998,12 +998,13 @@
       "match": "cisa.gov",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "category": "advisory_context",
-      "ok": true,
+      "ok": false,
       "ipv4": 0,
       "ipv6": 0,
       "domains": 0,
       "urls": 0,
-      "items": 30
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "CISA advisory context",
@@ -1016,12 +1017,13 @@
       "match": "cisa.gov",
       "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
       "category": "advisory_context",
-      "ok": true,
+      "ok": false,
       "ipv4": 0,
       "ipv6": 0,
       "domains": 0,
       "urls": 0,
-      "items": 30
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "CISA advisory context",
@@ -1034,12 +1036,13 @@
       "match": "cisa.gov",
       "url": "https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml",
       "category": "advisory_context",
-      "ok": true,
+      "ok": false,
       "ipv4": 0,
       "ipv6": 0,
       "domains": 0,
       "urls": 0,
-      "items": 10
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "CISA advisory context",
@@ -1079,22 +1082,22 @@
   ],
   "high_confidence_threshold": 75,
   "stats": {
-    "country_ipv4_raw": 18331,
+    "country_ipv4_raw": 18335,
     "country_ipv6_raw": 5725,
-    "threat_ipv4_raw": 145787,
-    "threat_ipv6_raw": 244,
-    "threat_domains_raw": 785,
-    "threat_urls_raw": 22297,
-    "privacy_domains_raw": 261842,
-    "dns_blocklist_raw": 262281,
-    "scored_indicators": 193092,
-    "privacy_indicators_unscored": 261597,
-    "high_confidence_indicators": 168661,
-    "advisory_context_items": 120,
-    "combined_ipv4_collapsed": 110059,
-    "combined_ipv6_collapsed": 5950,
+    "threat_ipv4_raw": 141446,
+    "threat_ipv6_raw": 226,
+    "threat_domains_raw": 718,
+    "threat_urls_raw": 20796,
+    "privacy_domains_raw": 261081,
+    "dns_blocklist_raw": 261291,
+    "scored_indicators": 187169,
+    "privacy_indicators_unscored": 260674,
+    "high_confidence_indicators": 162831,
+    "advisory_context_items": 50,
+    "combined_ipv4_collapsed": 107460,
+    "combined_ipv6_collapsed": 5931,
     "sources_total": 64,
-    "sources_ok": 64,
-    "sources_failed": 0
+    "sources_ok": 61,
+    "sources_failed": 3
   }
 }
