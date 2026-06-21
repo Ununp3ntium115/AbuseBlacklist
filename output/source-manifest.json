@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T04:46:03.368214+00:00",
+  "generated_at_utc": "2026-06-21T04:57:34.865016+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -83,7 +83,7 @@
       "cadence": "daily",
       "justification": "Policy geo-block CIDR range for Iran; this is not standalone abuse evidence.",
       "ok": true,
-      "ipv4": 1723,
+      "ipv4": 1724,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 122391,
+      "ipv4": 132951,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 21273,
-      "ipv6": 80,
+      "ipv4": 20872,
+      "ipv6": 90,
       "domains": 0,
       "urls": 0
     },
@@ -796,7 +796,7 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 4924,
+      "ipv4": 4718,
       "ipv6": 3,
       "domains": 0,
       "urls": 0
@@ -813,8 +813,8 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 12459,
-      "ipv6": 10,
+      "ipv4": 12572,
+      "ipv6": 15,
       "domains": 0,
       "urls": 0
     },
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 8873,
-      "ipv6": 60,
+      "ipv4": 8810,
+      "ipv6": 63,
       "domains": 0,
       "urls": 0
     },
@@ -847,8 +847,8 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 2503,
-      "ipv6": 6,
+      "ipv4": 2255,
+      "ipv6": 9,
       "domains": 0,
       "urls": 0
     },
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 772,
-      "ipv6": 59,
+      "ipv4": 716,
+      "ipv6": 63,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 472,
+      "domains": 441,
       "urls": 0
     },
     {
@@ -917,7 +917,7 @@
       "ipv4": 0,
       "ipv6": 0,
       "domains": 541,
-      "urls": 10718
+      "urls": 10807
     },
     {
       "name": "abuse.ch URLhaus",
@@ -934,7 +934,7 @@
       "ipv4": 0,
       "ipv6": 0,
       "domains": 556,
-      "urls": 21436
+      "urls": 21610
     },
     {
       "name": "EasyPrivacy",
@@ -950,7 +950,7 @@
       "ok": true,
       "ipv4": 16,
       "ipv6": 1,
-      "domains": 55034,
+      "domains": 55039,
       "urls": 6
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 73,
       "ipv6": 0,
-      "domains": 157746,
+      "domains": 158032,
       "urls": 0
     },
     {
@@ -1082,20 +1082,20 @@
   ],
   "high_confidence_threshold": 75,
   "stats": {
-    "country_ipv4_raw": 18337,
+    "country_ipv4_raw": 18338,
     "country_ipv6_raw": 5725,
-    "threat_ipv4_raw": 124333,
-    "threat_ipv6_raw": 174,
-    "threat_domains_raw": 676,
-    "threat_urls_raw": 21436,
-    "privacy_domains_raw": 261388,
-    "dns_blocklist_raw": 261641,
-    "scored_indicators": 170604,
-    "privacy_indicators_unscored": 261066,
-    "high_confidence_indicators": 146307,
+    "threat_ipv4_raw": 134882,
+    "threat_ipv6_raw": 184,
+    "threat_domains_raw": 644,
+    "threat_urls_raw": 21612,
+    "privacy_domains_raw": 261679,
+    "dns_blocklist_raw": 261968,
+    "scored_indicators": 181308,
+    "privacy_indicators_unscored": 261425,
+    "high_confidence_indicators": 157011,
     "advisory_context_items": 50,
-    "combined_ipv4_collapsed": 96639,
-    "combined_ipv6_collapsed": 5880,
+    "combined_ipv4_collapsed": 102459,
+    "combined_ipv6_collapsed": 5889,
     "sources_total": 64,
     "sources_ok": 61,
     "sources_failed": 3
