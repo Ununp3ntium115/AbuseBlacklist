@@ -1,6 +1,42 @@
 [
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2025-67038 Lantronix EDS5000 Lantronix EDS5000 Code Injection Vulnerability Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-23",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-34910 Ubiquiti UniFi OS Ubiquiti UniFi OS Improper Input Validation Vulnerability Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-23",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-34909 Ubiquiti UniFi OS Ubiquiti UniFi OS Path Traversal Vulnerability Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-23",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-34908 Ubiquiti UniFi OS Ubiquiti UniFi OS Improper Access Control Vulnerability Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-23",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-20253 Splunk Enterprise Splunk Enterprise Missing Authentication for Critical Function Vulnerability Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-06-18",
@@ -411,42 +447,6 @@
     "title": "CVE-2026-33825 Microsoft Defender Microsoft Defender Insufficient Granularity of Access Control Vulnerability Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-04-22",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-20122 Cisco Catalyst SD-WAN Manger Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on the local file system. A successful exploit could allow the attacker to overwrite arbitrary files on the affected system and gain vmanage user privileges.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-20133 Cisco Catalyst SD-WAN Manager Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability Cisco Catalyst SD-WAN Manager contains an exposure of sensitive information to an unauthorized actor vulnerability that could allow remote attackers to view sensitive information on affected systems.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2025-2749 Kentico Kentico Xperience Kentico Xperience Path Traversal Vulnerability Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2023-27351 PaperCut NG/MF PaperCut NG/MF Improper Authentication Vulnerability PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-20",
     "domains": [],
     "urls": [],
     "blocking_policy": "context_only"
