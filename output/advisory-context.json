@@ -1,6 +1,24 @@
 [
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-12569 PTC Windchill and FlexPLM PTC Windchill and FlexPLM Improper Input Validation Vulnerability PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-25",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-20230 Cisco Unified Communications Manager Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-06-25",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2025-67038 Lantronix EDS5000 Lantronix EDS5000 Code Injection Vulnerability Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-06-23",
@@ -429,24 +447,6 @@
     "title": "CVE-2024-57726 SimpleHelp  SimpleHelp SimpleHelp Missing Authorization Vulnerability SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges to the server admin role.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-04-24",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-39987 Marimo Marimo Marimo Remote Code Execution Vulnerability Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-23",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-33825 Microsoft Defender Microsoft Defender Insufficient Granularity of Access Control Vulnerability Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-04-22",
     "domains": [],
     "urls": [],
     "blocking_policy": "context_only"
