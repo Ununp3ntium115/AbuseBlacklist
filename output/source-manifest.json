@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-04T06:29:31.373921+00:00",
+  "generated_at_utc": "2026-07-05T06:51:25.291106+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 133672,
+      "ipv4": 134476,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -747,7 +747,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 0,
-      "domains": 10,
+      "domains": 9,
       "urls": 0
     },
     {
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 25312,
-      "ipv6": 86,
+      "ipv4": 23919,
+      "ipv6": 105,
       "domains": 0,
       "urls": 0
     },
@@ -796,8 +796,8 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 4623,
-      "ipv6": 4,
+      "ipv4": 4585,
+      "ipv6": 2,
       "domains": 0,
       "urls": 0
     },
@@ -813,7 +813,7 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 13299,
+      "ipv4": 13636,
       "ipv6": 21,
       "domains": 0,
       "urls": 0
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 9266,
-      "ipv6": 47,
+      "ipv4": 8928,
+      "ipv6": 67,
       "domains": 0,
       "urls": 0
     },
@@ -847,8 +847,8 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 5513,
-      "ipv6": 14,
+      "ipv4": 4212,
+      "ipv6": 15,
       "domains": 0,
       "urls": 0
     },
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 1097,
-      "ipv6": 44,
+      "ipv4": 747,
+      "ipv6": 66,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 437,
+      "domains": 474,
       "urls": 0
     },
     {
@@ -916,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 518,
-      "urls": 15571
+      "domains": 523,
+      "urls": 15648
     },
     {
       "name": "abuse.ch URLhaus",
@@ -933,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 533,
-      "urls": 31142
+      "domains": 538,
+      "urls": 31296
     },
     {
       "name": "EasyPrivacy",
@@ -950,7 +950,7 @@
       "ok": true,
       "ipv4": 16,
       "ipv6": 1,
-      "domains": 55107,
+      "domains": 55111,
       "urls": 6
     },
     {
@@ -967,7 +967,7 @@
       "ok": true,
       "ipv4": 3,
       "ipv6": 6,
-      "domains": 82926,
+      "domains": 79014,
       "urls": 0
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 73,
       "ipv6": 0,
-      "domains": 154441,
+      "domains": 154769,
       "urls": 0
     },
     {
@@ -1084,18 +1084,18 @@
   "stats": {
     "country_ipv4_raw": 18347,
     "country_ipv6_raw": 5713,
-    "threat_ipv4_raw": 135906,
-    "threat_ipv6_raw": 179,
-    "threat_domains_raw": 643,
-    "threat_urls_raw": 31142,
-    "privacy_domains_raw": 257112,
-    "dns_blocklist_raw": 257439,
-    "scored_indicators": 191854,
-    "privacy_indicators_unscored": 256897,
-    "high_confidence_indicators": 167239,
+    "threat_ipv4_raw": 136625,
+    "threat_ipv6_raw": 198,
+    "threat_domains_raw": 680,
+    "threat_urls_raw": 31296,
+    "privacy_domains_raw": 253529,
+    "dns_blocklist_raw": 253813,
+    "scored_indicators": 192783,
+    "privacy_indicators_unscored": 253234,
+    "high_confidence_indicators": 168232,
     "advisory_context_items": 50,
-    "combined_ipv4_collapsed": 110529,
-    "combined_ipv6_collapsed": 5872,
+    "combined_ipv4_collapsed": 111227,
+    "combined_ipv6_collapsed": 5890,
     "sources_total": 64,
     "sources_ok": 61,
     "sources_failed": 3
