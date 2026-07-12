@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-11T05:54:45.214996+00:00",
+  "generated_at_utc": "2026-07-12T06:13:52.278961+00:00",
   "mode": "dump_everything",
   "countries": {
     "ru": "Russia",
@@ -211,7 +211,7 @@
       "cadence": "daily",
       "justification": "Policy geo-block CIDR range for Lebanon; this is not standalone abuse evidence.",
       "ok": true,
-      "ipv4": 229,
+      "ipv4": 230,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -660,7 +660,7 @@
       "url": "https://threathive.net/hiveblocklist.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 137904,
+      "ipv4": 135907,
       "ipv6": 0,
       "domains": 0,
       "urls": 0
@@ -747,7 +747,7 @@
       "ok": true,
       "ipv4": 20,
       "ipv6": 0,
-      "domains": 10,
+      "domains": 9,
       "urls": 0
     },
     {
@@ -779,8 +779,8 @@
       "url": "https://lists.blocklist.de/lists/all.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 29875,
-      "ipv6": 884,
+      "ipv4": 27826,
+      "ipv6": 701,
       "domains": 0,
       "urls": 0
     },
@@ -796,7 +796,7 @@
       "url": "https://lists.blocklist.de/lists/ssh.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 4881,
+      "ipv4": 5390,
       "ipv6": 27,
       "domains": 0,
       "urls": 0
@@ -813,8 +813,8 @@
       "url": "https://lists.blocklist.de/lists/mail.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 13038,
-      "ipv6": 16,
+      "ipv4": 13546,
+      "ipv6": 20,
       "domains": 0,
       "urls": 0
     },
@@ -830,8 +830,8 @@
       "url": "https://lists.blocklist.de/lists/apache.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 8867,
-      "ipv6": 59,
+      "ipv4": 8864,
+      "ipv6": 81,
       "domains": 0,
       "urls": 0
     },
@@ -847,8 +847,8 @@
       "url": "https://lists.blocklist.de/lists/bots.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 10310,
-      "ipv6": 780,
+      "ipv4": 7420,
+      "ipv6": 570,
       "domains": 0,
       "urls": 0
     },
@@ -864,8 +864,8 @@
       "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
       "category": "threat_ip",
       "ok": true,
-      "ipv4": 775,
-      "ipv6": 57,
+      "ipv4": 797,
+      "ipv6": 79,
       "domains": 0,
       "urls": 0
     },
@@ -899,7 +899,7 @@
       "ok": true,
       "ipv4": 1,
       "ipv6": 0,
-      "domains": 462,
+      "domains": 459,
       "urls": 0
     },
     {
@@ -916,8 +916,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 530,
-      "urls": 15272
+      "domains": 523,
+      "urls": 15053
     },
     {
       "name": "abuse.ch URLhaus",
@@ -933,8 +933,8 @@
       "ok": true,
       "ipv4": 0,
       "ipv6": 0,
-      "domains": 545,
-      "urls": 30546
+      "domains": 536,
+      "urls": 30094
     },
     {
       "name": "EasyPrivacy",
@@ -950,7 +950,7 @@
       "ok": true,
       "ipv4": 16,
       "ipv6": 1,
-      "domains": 55136,
+      "domains": 55138,
       "urls": 6
     },
     {
@@ -984,7 +984,7 @@
       "ok": true,
       "ipv4": 73,
       "ipv6": 0,
-      "domains": 155840,
+      "domains": 156181,
       "urls": 0
     },
     {
@@ -1082,20 +1082,20 @@
   ],
   "high_confidence_threshold": 75,
   "stats": {
-    "country_ipv4_raw": 18355,
+    "country_ipv4_raw": 18356,
     "country_ipv6_raw": 5714,
-    "threat_ipv4_raw": 139939,
-    "threat_ipv6_raw": 977,
-    "threat_domains_raw": 668,
-    "threat_urls_raw": 30546,
-    "privacy_domains_raw": 254045,
-    "dns_blocklist_raw": 254367,
-    "scored_indicators": 196123,
-    "privacy_indicators_unscored": 253800,
-    "high_confidence_indicators": 170898,
+    "threat_ipv4_raw": 137928,
+    "threat_ipv6_raw": 794,
+    "threat_domains_raw": 661,
+    "threat_urls_raw": 30117,
+    "privacy_domains_raw": 254387,
+    "dns_blocklist_raw": 254713,
+    "scored_indicators": 193494,
+    "privacy_indicators_unscored": 254153,
+    "high_confidence_indicators": 168466,
     "advisory_context_items": 50,
-    "combined_ipv4_collapsed": 113918,
-    "combined_ipv6_collapsed": 6672,
+    "combined_ipv4_collapsed": 112031,
+    "combined_ipv6_collapsed": 6488,
     "sources_total": 64,
     "sources_ok": 61,
     "sources_failed": 3
