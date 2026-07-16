@@ -1,6 +1,24 @@
 [
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2026-46817 Oracle E-Business Suite Oracle E-Business Suite Improper Privilege Management Vulnerability Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Oracle Payments.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-07-15",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "title": "CVE-2023-4346 KNX Association KNX Protocol Connection Authorization Option 1 KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device.",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "published": "2026-07-15",
+    "domains": [],
+    "urls": [],
+    "blocking_policy": "context_only"
+  },
+  {
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2026-56155 Microsoft Active Directory Federation Services Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability  Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-07-14",
@@ -427,24 +445,6 @@
   {
     "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "title": "CVE-2010-0806 Microsoft Internet Explorer Microsoft Internet Explorer Use-After-Free Vulnerability Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-05-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-41091 Microsoft Defender Microsoft Defender Link Following Vulnerability Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-    "published": "2026-05-20",
-    "domains": [],
-    "urls": [],
-    "blocking_policy": "context_only"
-  },
-  {
-    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-    "title": "CVE-2026-45498 Microsoft Defender Microsoft Defender Denial of Service Vulnerability Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
     "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "published": "2026-05-20",
     "domains": [],
