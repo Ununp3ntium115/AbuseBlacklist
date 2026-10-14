@@ -13,6 +13,7 @@
 60aaf9c6.salamanderprocessing.pages.dev
 65512.cfd
 6ab746fb57212ca6e1e7b121.imgix.net
+6sim.vip
 78-20-115-5.access.telenet.be
 87130921-60-20220830152356.webstarterz.com
 93.105.205.92.host.secureserver.net
@@ -52,7 +53,6 @@ backupso.com
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev
 baolongwes.oss-ap-southeast-1.aliyuncs.com
 bat.downloader
-beak.in
 beamtechmacros.com
 benzinclick.live
 beoauto.alexion.rs
@@ -87,18 +87,19 @@ catbaparadisehotel.com.vn
 cd.textfiles.com
 cdaonline.com.ar
 cdn-10049480.file.myqcloud.com
+cdn.discordapp.com
 cdn.file6.goodid.com
 cdn.filestackcontent.com
 cdn.gomlab.com
 cdn.pixelbin.io
 cdn.xiaoduoai.com
 celebratingseniors.net
-cepde.org
 cfs10.blog.daum.net
 cfs13.tistory.com
 cfs5.tistory.com
 cfs7.blog.daum.net
 cfs9.blog.daum.net
+chantcompass9.com
 chat-server.maverickpreviews.com
 checkfivem.com
 cheetoclient.com
@@ -133,6 +134,7 @@ d.wanyouxi7.com
 d2314eac.solaraweb-alj.pages.dev
 d3cciiowg5l3jx.cloudfront.net
 damiancollier.com
+dasdase13.icu
 data.yhydl.com
 dcrun.co.uk
 dcwblida.dz
@@ -145,7 +147,6 @@ devs.kantales.life
 dezcom.com
 dfd.zhzy999.net
 dinamikakargo.com
-disk.accord1key.cn
 dl.1003b.56a.com
 dl.2345.com
 dl.360safe.com
@@ -162,7 +163,6 @@ donutsmp-mod.github.io
 donutsmpclient.com
 down.fwqlt.com
 down.pcclear.com
-down.qqfarmer.com.cn
 down.ruanmei.com
 down10d.zol.com.cn
 downali.game.uc.cn
@@ -172,15 +172,16 @@ download.caihong.com
 download.doumaibiji.cn
 download.haozip.com
 download.kaobeitu.com
-download.kbcard.com
 download.pdf00.cn
 download.pdf00.com
+download2.huduntech.com
 drive.google.com
 dubapkg.cmcmcdn.com
 dynga.pl
 electri.billregulator.com
 elisans.novayonetim.com
 embalageral.hospedagemdesites.ws
+embedone.com
 empty-violet-63e1.maskify.workers.dev
 en.taichuan.com
 epanpano.com
@@ -227,6 +228,7 @@ github.com
 gitlab.com
 globalbank.us
 gloryhaven.org
+gobiotechpestcontrol.com
 goto.stnts.com
 grantexx.com
 greatwhite.me
@@ -256,6 +258,7 @@ hotelhungry.com
 hoteljune2026.blogspot.com
 hotelsep.blogspot.com
 hseda.com
+htdentshop.com
 hzxcaq-github-io.pages.dev
 ibidasjohnnraplc.com
 icoffeecloud.com
@@ -292,12 +295,12 @@ landonirwin.com
 lawfirm.paperbirdtech.com
 lcportal.kbinsure.co.kr
 leindisncieamrocea-1341831283.cos.sa-saopaulo.myqcloud.com
+lifeisabouthavingfun448.duckdns.org
 lindnerelektroanlagen.de
 livinginpurpose.co.za
 loader2-4.github.io
 local-update.com
 lomejordesalamanca.es
-loop-lumen.com
 luizmatoso.com.br
 lumacrea.com
 luminexclient.com
@@ -332,6 +335,7 @@ muaklekcoop.com
 muledo.com
 multiplay.at
 munihuacho.gob.pe
+mx9x.com
 mysura.it
 n.vs108.com
 ncxps.com
@@ -425,7 +429,6 @@ rs74ed.s.gy
 s1w21.comen.store
 sablayan.seasonshotelmindoro.com
 safeifm.com
-sales.ifree.page
 samiksha.com.sg
 samul.elblag.pl
 sanghyun.nfile.net
@@ -449,6 +452,7 @@ sg123.net
 sh.classera.com
 shadowbot-dih.pages.dev
 sharphound.exe
+shqdown.ggzuhao.com
 sigmaclient.net
 silverfox.bm
 sites.google.com
@@ -484,6 +488,7 @@ support.clz.kr
 sushiandpoke.pt
 sutterpoint.com
 svirtual.sanviatorperu.edu.pe
+swiftfusion.tech
 talkandtypeapp.com
 tangentwaves.com
 tanscarattorneys.co.tz
@@ -526,6 +531,7 @@ update.exe
 upload.cc
 urlhaus.abuse.ch
 users.atw.hu
+uu.v2raynapps.com.cn
 vaamsmgfreocmroe-1342087530.cos.sa-saopaulo.myqcloud.com
 vegatele.com
 vejnqoajk1soxy1x.public.blob.vercel-storage.com
@@ -625,6 +631,5 @@ yakult-hk.com
 ybgctdtbzvgpdxjivafy.supabase.co
 youtransfer.net
 zamilgroups.com
-zare.com
 zhigao5191.com
 zycdjz.com
