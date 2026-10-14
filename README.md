@@ -168,33 +168,31 @@ flowchart TD
   broad --> firewall["ipset.restore\nnftables-blocklist.nft"]
 ```
 
-## Scheduled Workflow Graph
+## Nightly Update
+
+The repo has no GitHub Actions. A scheduled job on a maintainer machine runs
+`scripts/run_daily_update.sh` once a night from a dedicated clean clone of
+`main`, so upstream sources are fetched once per day and never hammered.
 
 ```mermaid
 flowchart LR
-  fast["Fast feed health\nFeodo + ThreatHive\n7,22,37,52 * * * *"] --> daily["Daily full distillation\n17 3 * * *"]
-  community["Community feed health\nBlocklist.de\n9,39 * * * *"] --> daily
-  hourly["Hourly feed health\nDShield\n13 * * * *"] --> daily
-  advisory["Advisory context health\nCISA RSS/KEV\n11 2 * * *"] --> daily
-  privacy["Privacy feed health\nlarge DNS lists\n41 4 * * 0"] --> daily
-  push["Push to config/feeds/scripts/workflow"] --> daily
-  manual["workflow_dispatch"] --> daily
-  daily --> commit["Commit changed output/* to main"]
+  sched["launchd (macOS) or cron (Linux)\n03:17 local"] --> sync["git pull --rebase\n(clean tree)"]
+  sync --> build["build_blocklists.py"]
+  build --> guard{"publish_guard.py\nenough sources ok?"}
+  guard -- no --> discard["discard output/\nkeep last good publish"]
+  guard -- yes --> commit["commit output/* to main\n+ push"]
+  commit --> release["gh release create\nrulesets-&lt;timestamp&gt;"]
 ```
 
-The high-frequency workflows only make lightweight `HEAD` probes. The full
-payload ingestion runs once daily, or manually, so upstream sources are not
-hammered.
+`build_blocklists.py` exits 0 even when upstreams fail. `publish_guard.py`
+reads `output/source-manifest.json` and refuses to publish when more than half
+of the sources failed, so a night without network can't push empty
+blocklists to routers.
 
 ## Release Page Automation
 
-Releases are now published automatically from generated outputs by
-`.github/workflows/publish-release.yml`.
-
-- Connector trigger: runs after successful `Daily threatfeed dump` workflow
-  completion (`workflow_run`).
-- Fallback schedule: `45 3 * * *` UTC in case the connector trigger is missed.
-- Manual trigger: `workflow_dispatch` is available.
+After each push with changed outputs, the nightly job publishes a release with
+`gh release create`, attaching every file under `output/`.
 
 Each successful run creates a new immutable release tag:
 
@@ -333,21 +331,28 @@ python3 scripts/build_blocklists.py
 sudo nft -f output/nftables-blocklist.nft
 ```
 
-## Server Cron
+## Scheduling the Nightly Job
 
-The repo also includes `cron/abuseblacklist.crontab` for non-GitHub servers:
+Always run the job from a dedicated clone that stays on `main` with no local
+edits. The script refuses to run on any other branch or with uncommitted
+changes outside `output/`. It pushes with your normal git credentials and
+publishes releases with `gh`, so `gh auth status` must be logged in.
 
-```cron
-17 3 * * * cd /opt/AbuseBlacklist && /usr/bin/env bash scripts/run_daily_update.sh >> /var/log/abuseblacklist-daily.log 2>&1
+macOS (launchd LaunchAgent, runs in your login session so keychain auth works):
+
+```bash
+git clone https://github.com/Ununp3ntium115/AbuseBlacklist.git ~/GitRepos/Abuselist/AbuseBlacklist-nightly
+~/GitRepos/Abuselist/AbuseBlacklist-nightly/scripts/install_launchd_job.sh
+launchctl kickstart -k gui/$(id -u)/com.ununp3ntium115.abuseblacklist.daily   # optional: run now
+tail -f ~/Library/Logs/abuseblacklist/daily.log
 ```
 
-Install example:
+Linux (cron): edit the clone path in `cron/abuseblacklist.crontab`, then
+**append** it, because `crontab <file>` would replace every existing job:
 
 ```bash
 git clone https://github.com/Ununp3ntium115/AbuseBlacklist.git /opt/AbuseBlacklist
-cd /opt/AbuseBlacklist
-chmod +x scripts/run_daily_update.sh
-crontab cron/abuseblacklist.crontab
+(crontab -l 2>/dev/null; cat /opt/AbuseBlacklist/cron/abuseblacklist.crontab) | crontab -
 ```
 
 ## Country Policy List

@@ -1,12 +1,8 @@
-# AbuseBlacklist daily update cron
-# Runs every day at 03:17 UTC/server time.
+# AbuseBlacklist nightly update for Linux servers (on macOS use scripts/install_launchd_job.sh).
+# Runs daily at 03:17 server time from a dedicated clean clone on main.
 #
-# Install example:
-#   crontab cron/abuseblacklist.crontab
+# APPEND it to your crontab; `crontab <file>` would replace every existing job:
+#   (crontab -l 2>/dev/null; cat cron/abuseblacklist.crontab) | crontab -
 #
-# If the server timezone is not UTC, adjust the hour/minute or set CRON_TZ if supported.
-
-SHELL=/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
-17 3 * * * cd /opt/AbuseBlacklist && /usr/bin/env bash scripts/run_daily_update.sh >> /var/log/abuseblacklist-daily.log 2>&1
+# Edit the clone path below first. The script sets its own PATH, so no SHELL/PATH lines are needed here.
+17 3 * * * /usr/bin/env bash /opt/AbuseBlacklist/scripts/run_daily_update.sh >> "$HOME/abuseblacklist-daily.log" 2>&1

@@ -1,0 +1,9 @@
+# Orca project config for AbuseBlacklist (stdlib-only Python; nothing to install).
+#
+# Setup is offline on purpose: the real build (scripts/build_blocklists.py) fetches every
+# upstream feed, so it must never run on worktree create. The unit tests mock all fetches
+# and write to a temp dir, so they prove the interpreter works without touching output/.
+scripts:
+  setup: |
+    python3 --version
+    python3 -m unittest discover -s tests
