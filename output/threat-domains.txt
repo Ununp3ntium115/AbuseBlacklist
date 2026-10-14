@@ -41,7 +41,6 @@ alineeleuterio.com.br
 allendostmen.com
 alternativas.ru
 app.appzcvb.com
-areyouready.co.za
 argon-client.com
 atasapka.com.tr
 atkcgnew.evgeni7e.beget.tech
@@ -94,6 +93,7 @@ cdn.gomlab.com
 cdn.pixelbin.io
 cdn.xiaoduoai.com
 celebratingseniors.net
+cepde.org
 cfs10.blog.daum.net
 cfs13.tistory.com
 cfs5.tistory.com
@@ -137,18 +137,15 @@ damiancollier.com
 dasdase13.icu
 data.yhydl.com
 dcrun.co.uk
-dcwblida.dz
 deagroup-ks.com
 debugify.net
 del.sou.pp.ua
 delp-heizungsbau.de
-delta-canvas.com
 devs.kantales.life
 dezcom.com
 dfd.zhzy999.net
 dinamikakargo.com
 dl.1003b.56a.com
-dl.2345.com
 dl.360safe.com
 dl.dzqzd.com
 dl.ijinshan.com
@@ -172,9 +169,9 @@ download.caihong.com
 download.doumaibiji.cn
 download.haozip.com
 download.kaobeitu.com
+download.kbcard.com
 download.pdf00.cn
 download.pdf00.com
-download2.huduntech.com
 drive.google.com
 dubapkg.cmcmcdn.com
 dynga.pl
@@ -217,7 +214,6 @@ fukt.link
 fullstacknir.com
 fz.tiansys.cn
 galeri3.arkitera.com
-galerisenimutiara.com
 gaode11223.oss-ap-southeast-7.aliyuncs.com
 gboutros.howto.rocks
 geoxsecurity.ro
@@ -228,7 +224,6 @@ github.com
 gitlab.com
 globalbank.us
 gloryhaven.org
-gobiotechpestcontrol.com
 goto.stnts.com
 grantexx.com
 greatwhite.me
@@ -250,6 +245,7 @@ hitstation.nl
 hnjgdl.geps.glodon.com
 hobobot.net
 horion-static.pages.dev
+horno-rafelet.es
 host-195-103-203-106.business.telecomitalia.it
 host-95-230-215-65.business.telecomitalia.it
 host-95-255-114-11.business.telecomitalia.it
@@ -346,11 +342,13 @@ noithaticon.vn
 nossl.segfault.net
 nova-client.com
 novagames.cc
+nusatoyota.co.id
 ob.youstarsbuilding.com
 obearo.com
 od.lk
 odinclient.st
 ofice365.github.io
+oim.doganltd.com.tr
 ojang.pe.kr
 okhan.net
 oknoplastik.sk
@@ -361,6 +359,7 @@ ontario.ca
 opsecmod.st
 osmb.net
 ossapp.suning.com
+out-agent.duckdns.org
 outpost.co.ke
 p3.zbjimg.com
 paccbet.pages.dev
@@ -429,6 +428,7 @@ rs74ed.s.gy
 s1w21.comen.store
 sablayan.seasonshotelmindoro.com
 safeifm.com
+sales.ifree.page
 samiksha.com.sg
 samul.elblag.pl
 sanghyun.nfile.net
@@ -436,7 +436,6 @@ scanbot.me
 scoala1gherla.ro
 screenconnect.pro
 scrroeder.com
-sdufkghdfshds.cfd
 sec.dashabi.in
 sec.xiaojiji.nl
 sec.xiaoshabi.nl
@@ -522,7 +521,6 @@ trtmyanmar.com
 tweakz-dream-launcher.lovable.app
 twejamaica.org
 twitch.tj
-twu-hwt.org
 union.macoms.la
 upaicdn.xinmei365.com
 upchemicals.co.in
