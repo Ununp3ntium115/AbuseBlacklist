@@ -12,6 +12,12 @@ PUBLISH_RELEASE="${PUBLISH_RELEASE:-1}"
 FETCH_TIMEOUT="${FETCH_TIMEOUT:-90}"
 cd "$REPO_DIR"
 
+# Dump commits (and their rebases) use a bot noreply identity, as CI did; a clone without a repo-level
+# email would otherwise fall back to a private global one, which GitHub rejects on push (GH007).
+export GIT_AUTHOR_NAME="${DUMP_GIT_NAME:-abuseblacklist-bot}"
+export GIT_AUTHOR_EMAIL="${DUMP_GIT_EMAIL:-abuseblacklist-bot@users.noreply.github.com}"
+export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME" GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+
 log() { echo "[$(date -u +'%Y-%m-%dT%H:%M:%SZ')] $*"; }
 
 current_branch="$(git symbolic-ref --short -q HEAD || true)"
@@ -39,10 +45,6 @@ if ! python3 scripts/publish_guard.py output/source-manifest.json; then
   git checkout -- output/
   exit 1
 fi
-
-# Ensure commit identity exists for unattended runs.
-git config user.name >/dev/null 2>&1 || git config user.name "abuseblacklist-bot"
-git config user.email >/dev/null 2>&1 || git config user.email "abuseblacklist-bot@users.noreply.github.com"
 
 git add output/
 if git diff --cached --quiet; then
